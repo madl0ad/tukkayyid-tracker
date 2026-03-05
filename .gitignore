@@ -1,3 +1,4 @@
 .vscode
 .clinerules
 node_modules
+out/
