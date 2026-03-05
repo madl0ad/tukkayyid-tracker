@@ -1,0 +1,128 @@
+{
+  "name": "Force_2026-03-05",
+  "faction": "ComStar",
+  "equipmentVariant": null,
+  "experienceLevel": "Veteran",
+  "forcePoints": 500,
+  "units": [
+    {
+      "id": 3,
+      "type": "Assault",
+      "mechs": [
+        {
+          "name": "Crockett CRK-5003-1",
+          "roll": 5,
+          "cost": 22,
+          "class": "Assault",
+          "selectedClass": "Assault",
+          "pilotId": "pilot_3"
+        },
+        {
+          "name": "Crockett CRK-5003-1",
+          "roll": 5,
+          "cost": 22,
+          "class": "Assault",
+          "selectedClass": "Assault",
+          "pilotId": "pilot_1"
+        },
+        {
+          "name": "Cyclops CP-11-A",
+          "roll": 2,
+          "cost": 22,
+          "class": "Assault",
+          "selectedClass": "Assault",
+          "pilotId": "pilot_3"
+        },
+        {
+          "name": "Crockett CRK-5003-1",
+          "roll": 5,
+          "cost": 22,
+          "class": "Assault",
+          "selectedClass": "Assault",
+          "pilotId": "pilot_4"
+        },
+        {
+          "name": "King Crab KGC-000",
+          "roll": 3,
+          "cost": 22,
+          "class": "Assault",
+          "selectedClass": "Assault",
+          "pilotId": "pilot_5"
+        },
+        {
+          "name": "King Crab KGC-000",
+          "roll": 3,
+          "cost": 22,
+          "class": "Assault",
+          "selectedClass": "Assault",
+          "pilotId": "pilot_6"
+        }
+      ]
+    }
+  ],
+  "totalCost": 132,
+  "createdAt": "2026-03-05T21:33:34.211Z",
+  "filePath": "C:\\Coding\\tukayyid-builder\\force_1772746414211.json",
+  "pilots": [
+    {
+      "id": "pilot_1",
+      "name": "Pilot 1",
+      "gunnery": 3,
+      "piloting": 4,
+      "wounds": 0,
+      "status": "healthy",
+      "skills": {},
+      "notes": ""
+    },
+    {
+      "id": "pilot_2",
+      "name": "Pilot 2",
+      "gunnery": 3,
+      "piloting": 4,
+      "wounds": 0,
+      "status": "healthy",
+      "skills": {},
+      "notes": ""
+    },
+    {
+      "id": "pilot_3",
+      "name": "Pilot 3",
+      "gunnery": 3,
+      "piloting": 4,
+      "wounds": 0,
+      "status": "healthy",
+      "skills": {},
+      "notes": ""
+    },
+    {
+      "id": "pilot_4",
+      "name": "Pilot 4",
+      "gunnery": 3,
+      "piloting": 4,
+      "wounds": 0,
+      "status": "healthy",
+      "skills": {},
+      "notes": ""
+    },
+    {
+      "id": "pilot_5",
+      "name": "Pilot 5",
+      "gunnery": 3,
+      "piloting": 4,
+      "wounds": 0,
+      "status": "healthy",
+      "skills": {},
+      "notes": ""
+    },
+    {
+      "id": "pilot_6",
+      "name": "Pilot 6",
+      "gunnery": 3,
+      "piloting": 4,
+      "wounds": 0,
+      "status": "healthy",
+      "skills": {},
+      "notes": ""
+    }
+  ]
+}

@@ -630,6 +630,519 @@ footer {
     }
 }
 
+/* Mode Selection Screen */
+.mode-selection-screen {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.mode-selection {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+
+.mode-card {
+    background: rgba(40, 40, 60, 0.9);
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    border: 2px solid #2d3746;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mode-card:hover {
+    border-color: #64b5f6;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.mode-icon {
+    font-size: 3rem;
+    color: #64b5f6;
+    margin-bottom: 20px;
+}
+
+.mode-card h2 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.mode-description {
+    color: #a9b7c6;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+.btn-large {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    min-width: 200px;
+}
+
+.mode-hint {
+    margin-top: 30px;
+    color: #ffb74d;
+    font-style: italic;
+    border-top: 1px solid #3d4a5d;
+    padding-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Mode Switcher */
+.mode-switcher {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+/* Force Manager Styles */
+.force-manager {
+    background: rgba(40, 40, 60, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #2d3746;
+}
+
+.manager-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.force-info {
+    margin-bottom: 25px;
+}
+
+.info-card {
+    background: rgba(30, 30, 40, 0.8);
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #3d4a5d;
+}
+
+.info-card h3 {
+    color: #4fc3f7;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(61, 74, 93, 0.3);
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    color: #bb86fc;
+    font-weight: bold;
+}
+
+.info-value {
+    color: #fff;
+    font-weight: bold;
+}
+
+.units-list {
+    margin-bottom: 25px;
+}
+
+.units-container {
+    background: rgba(30, 30, 40, 0.8);
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #3d4a5d;
+    min-height: 150px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.unit-card {
+    background: rgba(40, 40, 60, 0.8);
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #3d4a5d;
+}
+
+.unit-card:last-child {
+    margin-bottom: 0;
+}
+
+.unit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.unit-name {
+    color: #ffb74d;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.unit-cost {
+    color: #81c784;
+    font-weight: bold;
+}
+
+.unit-mechs {
+    color: #a9b7c6;
+    font-size: 0.9rem;
+}
+
+.mechs-table-container {
+    margin-top: 25px;
+}
+
+.table-wrapper {
+    background: rgba(30, 30, 40, 0.8);
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid #3d4a5d;
+    overflow-x: auto;
+}
+
+.mechs-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #e6e6e6;
+}
+
+.mechs-table th {
+    background: rgba(40, 40, 60, 0.9);
+    padding: 12px 15px;
+    text-align: left;
+    color: #64b5f6;
+    font-weight: bold;
+    border-bottom: 2px solid #3d4a5d;
+}
+
+.mechs-table td {
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(61, 74, 93, 0.3);
+}
+
+.mechs-table tbody tr:hover {
+    background: rgba(50, 50, 70, 0.6);
+}
+
+.mechs-table tfoot {
+    background: rgba(40, 40, 60, 0.9);
+    font-weight: bold;
+}
+
+.mechs-table tfoot td {
+    border-top: 2px solid #3d4a5d;
+    border-bottom: none;
+}
+
+.empty-row td {
+    text-align: center;
+    color: #a9b7c6;
+    font-style: italic;
+    padding: 30px;
+}
+
+.pilot-edit-btn {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+}
+
+/* Pilot selection dropdown */
+.pilot-select {
+    width: 100%;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: 1px solid #2d3746;
+    background: #2d3746;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.pilot-select:focus {
+    outline: none;
+    border-color: #64b5f6;
+    box-shadow: 0 0 0 2px rgba(100, 181, 246, 0.2);
+}
+
+.pilot-select option {
+    background: #2d3746;
+    color: #fff;
+}
+
+/* Status indicators */
+.status-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.status-healthy {
+    background-color: #81c784;
+}
+
+.status-wounded {
+    background-color: #ffb74d;
+}
+
+.status-killed {
+    background-color: #f44336;
+}
+
+/* Hall of Fame table */
+.hall-of-fame-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #e6e6e6;
+}
+
+.hall-of-fame-table th {
+    background: rgba(40, 40, 60, 0.9);
+    padding: 12px 15px;
+    text-align: left;
+    color: #ffb74d;
+    font-weight: bold;
+    border-bottom: 2px solid #3d4a5d;
+}
+
+.hall-of-fame-table td {
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(61, 74, 93, 0.3);
+}
+
+.hall-of-fame-table tbody tr:hover {
+    background: rgba(50, 50, 70, 0.6);
+}
+
+/* Manager Info Panel Styles */
+.manager-info {
+    margin-bottom: 25px;
+}
+
+.manager-description {
+    color: #a9b7c6;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: rgba(30, 30, 40, 0.8);
+    border-radius: 8px;
+    border: 1px solid #3d4a5d;
+}
+
+.manager-instructions {
+    margin-bottom: 25px;
+}
+
+.manager-instructions h3 {
+    color: #4fc3f7;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.manager-instructions ol {
+    margin-left: 20px;
+    color: #a9b7c6;
+    line-height: 1.6;
+}
+
+.manager-instructions li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.manager-features {
+    margin-bottom: 25px;
+}
+
+.manager-features h3 {
+    color: #ffb74d;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.manager-features ul {
+    list-style: none;
+    color: #a9b7c6;
+    line-height: 1.6;
+}
+
+.manager-features li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.manager-features i.fa-check {
+    color: #81c784;
+}
+
+.manager-tips {
+    margin-top: 25px;
+}
+
+.manager-tips h2 {
+    color: #ffb74d;
+    margin-bottom: 20px;
+}
+
+.tip {
+    background: rgba(40, 40, 60, 0.8);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #3d4a5d;
+}
+
+.tip h3 {
+    color: #4fc3f7;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1rem;
+}
+
+.tip p {
+    color: #a9b7c6;
+    line-height: 1.5;
+}
+
+/* Dialog Overlay */
+.dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+
+.pilot-edit-dialog {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border-radius: 15px;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    border: 2px solid #64b5f6;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+
+.pilot-edit-dialog h3 {
+    color: #64b5f6;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #bb86fc;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #2d3746;
+    background: #2d3746;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #64b5f6;
+    box-shadow: 0 0 0 2px rgba(100, 181, 246, 0.2);
+}
+
+.dialog-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.dialog-buttons .btn {
+    flex: 1;
+}
+
+/* Responsive adjustments for mode selection */
+@media (max-width: 768px) {
+    .mode-selection {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .mode-card {
+        width: 100%;
+        max-width: 350px;
+    }
+    
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .mechs-table {
+        font-size: 0.9rem;
+    }
+    
+    .mechs-table th,
+    .mechs-table td {
+        padding: 8px 10px;
+    }
+}
+
 /* Export Operations Section */
 .export-operations {
     background: rgba(40, 40, 60, 0.8);

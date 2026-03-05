@@ -8,15 +8,59 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1><i class="fas fa-robot"></i> BattleTech Campaign Force Builder</h1>
-            <p class="subtitle">Build your BattleTech force with random mech assignments</p>
-        </header>
+    <div class="container" id="appContainer">
+        <!-- Mode Selection Screen (initially visible) -->
+        <div id="modeSelectionScreen" class="mode-selection-screen">
+            <header>
+                <h1><i class="fas fa-robot"></i> BattleTech Campaign Force Manager</h1>
+                <p class="subtitle">Create and manage your BattleTech forces</p>
+            </header>
 
-        <div class="main-content">
-            <!-- Left Panel: Force Configuration -->
-            <div class="left-panel">
+            <div class="mode-selection">
+                <div class="mode-card" id="builderModeCard">
+                    <div class="mode-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h2>Force Builder</h2>
+                    <p class="mode-description">
+                        Create new BattleTech forces with random mech assignments. 
+                        Configure factions, experience levels, and unit compositions.
+                    </p>
+                    <button id="startBuilderBtn" class="btn btn-primary btn-large">
+                        <i class="fas fa-plus-circle"></i> Create New Force
+                    </button>
+                </div>
+
+                <div class="mode-card" id="managerModeCard">
+                    <div class="mode-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <h2>Force Manager</h2>
+                    <p class="mode-description">
+                        Manage existing forces. View mechs, pilots, costs, and make edits.
+                        Load saved forces to review and modify.
+                    </p>
+                    <button id="startManagerBtn" class="btn btn-info btn-large">
+                        <i class="fas fa-folder-open"></i> Manage Existing Force
+                    </button>
+                </div>
+            </div>
+
+            <div class="mode-hint">
+                <p><i class="fas fa-info-circle"></i> Select a mode to begin. You can return to this screen at any time by restarting the application.</p>
+            </div>
+        </div>
+
+        <!-- Main Application Screen (initially hidden) -->
+        <div id="mainAppScreen" class="hidden">
+            <header>
+                <h1><i class="fas fa-robot"></i> BattleTech Campaign Force Builder</h1>
+                <p class="subtitle" id="appSubtitle">Build your BattleTech force with random mech assignments</p>
+            </header>
+
+            <div class="main-content">
+            <!-- Builder Left Panel (initially visible for builder mode) -->
+            <div id="builderLeftPanel" class="left-panel">
                 <section class="force-configuration">
                     <h2><i class="fas fa-cog"></i> Force Configuration</h2>
                     
@@ -94,6 +138,9 @@
                         <button id="loadForceBtn" class="btn btn-secondary">
                             <i class="fas fa-folder-open"></i> Load Force
                         </button>
+                        <button id="goToManagerBtn" class="btn btn-info">
+                            <i class="fas fa-clipboard-list"></i> Go to Manager
+                        </button>
                     </div>
                     <div class="status" id="statusMessage">
                         Ready to build your force!
@@ -125,7 +172,7 @@
             </div>
 
             <!-- Right Panel: Force Summary -->
-            <div class="right-panel">
+            <div class="right-panel" id="rightPanel">
                 <section class="force-summary">
                     <h2><i class="fas fa-clipboard-list"></i> Force Summary</h2>
                     
@@ -163,6 +210,96 @@
                         <div id="forceDetails">
                             <!-- Force details will be populated here -->
                             <p class="empty-message">No mechs assigned yet. Click "Roll All Mechs" to start.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Force Manager Panel (initially hidden) -->
+            <div id="forceManagerPanel" class="right-panel hidden">
+                <section class="force-manager">
+                    <h2><i class="fas fa-clipboard-list"></i> Force Manager</h2>
+                    
+                    <div class="manager-controls">
+                        <button id="loadForceForManagerBtn" class="btn btn-primary">
+                            <i class="fas fa-folder-open"></i> Load Force
+                        </button>
+                        <button id="saveForceFromManagerBtn" class="btn btn-success" disabled>
+                            <i class="fas fa-save"></i> Save Changes
+                        </button>
+                        <button id="hallOfFameBtn" class="btn btn-warning">
+                            <i class="fas fa-trophy"></i> Hall of Fame
+                        </button>
+                    </div>
+
+                    <div class="force-info" id="forceInfo">
+                        <div class="info-card">
+                            <h3><i class="fas fa-info-circle"></i> Force Information</h3>
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <span class="info-label">Faction:</span>
+                                    <span class="info-value" id="managerFaction">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Experience Level:</span>
+                                    <span class="info-value" id="managerExperience">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Total Force Points:</span>
+                                    <span class="info-value" id="managerTotalFP">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Used Points:</span>
+                                    <span class="info-value" id="managerUsedFP">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Total Mechs:</span>
+                                    <span class="info-value" id="managerTotalMechs">-</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Total Units:</span>
+                                    <span class="info-value" id="managerTotalUnits">-</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="units-list" id="unitsList">
+                        <h3><i class="fas fa-users"></i> Units</h3>
+                        <div class="units-container" id="unitsContainer">
+                            <p class="empty-message">No force loaded. Click "Load Force" to begin.</p>
+                        </div>
+                    </div>
+
+                    <div class="mechs-table-container">
+                        <h3><i class="fas fa-robot"></i> All Mechs</h3>
+                        <div class="table-wrapper">
+                            <table class="mechs-table" id="mechsTable">
+                                <thead>
+                                    <tr>
+                                        <th>Unit</th>
+                                        <th>Mech</th>
+                                        <th>Class</th>
+                                        <th>Cost (FP)</th>
+                                        <th>Pilot</th>
+                                        <th>Gunnery</th>
+                                        <th>Piloting</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="mechsTableBody">
+                                    <tr class="empty-row">
+                                        <td colspan="8">No mechs loaded. Load a force to see details.</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="3"><strong>Total:</strong></td>
+                                        <td id="totalMechCost">0</td>
+                                        <td colspan="4"></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
                         </div>
                     </div>
                 </section>
@@ -233,6 +370,7 @@
     <script src="js/DataManager.js"></script>
     <script src="js/UIManager.js"></script>
     <script src="js/ForceBuilder.js"></script>
+    <script src="js/ForceManager.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

@@ -93,15 +93,61 @@ class DataManager {
         return tables;
     }
 
+    /**
+     * Create a pilot for a mech
+     * @param {number} mechIndex - Index of the mech in the unit
+     * @param {string} experienceLevel - Experience level for pilot skills
+     */
+    createPilotForMech(mechIndex, experienceLevel = 'Veteran') {
+        // Experience level to pilot skill mapping
+        const experienceSkillMapping = {
+            'Regular': { gunnery: 4, piloting: 5 },
+            'Veteran': { gunnery: 3, piloting: 4 },
+            'Elite': { gunnery: 2, piloting: 3 },
+            'Heroic': { gunnery: 1, piloting: 2 }
+        };
+        
+        const skills = experienceSkillMapping[experienceLevel] || { gunnery: 3, piloting: 4 };
+        
+        return {
+            name: `Pilot ${mechIndex + 1}`,
+            gunnery: skills.gunnery,
+            piloting: skills.piloting,
+            skills: {},
+            notes: ''
+        };
+    }
+
     async saveForce() {
         try {
+            // Prepare units with pilot data
+            const unitsWithPilots = this.forceBuilder.units.map(unit => {
+                const unitCopy = { ...unit };
+                
+                // Ensure each mech has a pilot
+                if (unitCopy.mechs && Array.isArray(unitCopy.mechs)) {
+                    unitCopy.mechs = unitCopy.mechs.map((mech, index) => {
+                        const mechCopy = { ...mech };
+                        
+                        // Add pilot if not present
+                        if (!mechCopy.pilot) {
+                            mechCopy.pilot = this.createPilotForMech(index, this.forceBuilder.currentExperienceLevel);
+                        }
+                        
+                        return mechCopy;
+                    });
+                }
+                
+                return unitCopy;
+            });
+            
             const forceData = {
                 name: `Force_${new Date().toISOString().split('T')[0]}`,
                 faction: this.forceBuilder.currentFaction,
                 equipmentVariant: this.forceBuilder.currentEquipmentVariant,
                 experienceLevel: this.forceBuilder.currentExperienceLevel,
                 forcePoints: this.forceBuilder.currentForcePoints,
-                units: this.forceBuilder.units,
+                units: unitsWithPilots,
                 totalCost: this.forceBuilder.getTotalCost(),
                 createdAt: new Date().toISOString()
             };
