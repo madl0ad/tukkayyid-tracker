@@ -1,0 +1,2232 @@
+{
+  "factions": {
+    "ComStar": {
+      "unitSize": 6,
+      "mechs": [
+        {
+          "id": 100,
+          "name": "Thorn THE-N",
+          "class": "Light"
+        },
+        {
+          "id": 101,
+          "name": "Black Knight BL-6-KNT",
+          "class": "Heavy"
+        },
+        {
+          "id": 102,
+          "name": "Flashman FLS-8K",
+          "class": "Heavy"
+        },
+        {
+          "id": 103,
+          "name": "Panther PNT-8Z",
+          "class": "Light"
+        },
+        {
+          "id": 104,
+          "name": "Wasp WSP-1A",
+          "class": "Light"
+        },
+        {
+          "id": 105,
+          "name": "Mercury MCY-97",
+          "class": "Light"
+        },
+        {
+          "id": 106,
+          "name": "Stinger STG-3R",
+          "class": "Light"
+        },
+        {
+          "id": 107,
+          "name": "UrbanMech UM-R63",
+          "class": "Light"
+        },
+        {
+          "id": 108,
+          "name": "Valkyrie VLK-QA",
+          "class": "Light"
+        },
+        {
+          "id": 109,
+          "name": "Hussar HSR-200-D",
+          "class": "Light"
+        },
+        {
+          "id": 110,
+          "name": "Hussar HSR-400-D",
+          "class": "Light"
+        },
+        {
+          "id": 111,
+          "name": "Mongoose MON-66",
+          "class": "Light"
+        },
+        {
+          "id": 112,
+          "name": "Locust LCT-1V",
+          "class": "Light"
+        },
+        {
+          "id": 113,
+          "name": "Mercury MCY-99",
+          "class": "Light"
+        },
+        {
+          "id": 114,
+          "name": "Hunchback HBK-5M",
+          "class": "Medium"
+        },
+        {
+          "id": 115,
+          "name": "Shadow Hawk SHD-2Ht",
+          "class": "Medium"
+        },
+        {
+          "id": 116,
+          "name": "Wolverine WVR-7M",
+          "class": "Medium"
+        },
+        {
+          "id": 117,
+          "name": "Kintaro KTO-19",
+          "class": "Medium"
+        },
+        {
+          "id": 118,
+          "name": "Sentinel STN-3L",
+          "class": "Medium"
+        },
+        {
+          "id": 119,
+          "name": "Crab CRB-27",
+          "class": "Medium"
+        },
+        {
+          "id": 120,
+          "name": "Wyvern WVE-9N",
+          "class": "Medium"
+        },
+        {
+          "id": 121,
+          "name": "Phoenix Hawk PXH-1bC",
+          "class": "Medium"
+        },
+        {
+          "id": 122,
+          "name": "Shadow Hawk SHD-2H",
+          "class": "Medium"
+        },
+        {
+          "id": 123,
+          "name": "Whitworth WTH-2",
+          "class": "Medium"
+        },
+        {
+          "id": 124,
+          "name": "Blackjack BJ-2",
+          "class": "Medium"
+        },
+        {
+          "id": 125,
+          "name": "Griffin GRF-1N",
+          "class": "Medium"
+        },
+        {
+          "id": 126,
+          "name": "Trebuchet TBT-7M",
+          "class": "Medium"
+        },
+        {
+          "id": 127,
+          "name": "Phoenix Hawk PXH-1",
+          "class": "Medium"
+        },
+        {
+          "id": 128,
+          "name": "Wolverine WVR-6R",
+          "class": "Medium"
+        },
+        {
+          "id": 129,
+          "name": "Thunderbolt TDR-7M",
+          "class": "Heavy"
+        },
+        {
+          "id": 130,
+          "name": "Orion ON1-M",
+          "class": "Heavy"
+        },
+        {
+          "id": 131,
+          "name": "Shootist ST-8A",
+          "class": "Heavy"
+        },
+        {
+          "id": 132,
+          "name": "Black Knight BL-9-KNT",
+          "class": "Heavy"
+        },
+        {
+          "id": 133,
+          "name": "Warhammer WHM-7M",
+          "class": "Heavy"
+        },
+        {
+          "id": 134,
+          "name": "Thunderbolt TDR-5S",
+          "class": "Heavy"
+        },
+        {
+          "id": 135,
+          "name": "Marauder MAD-5M",
+          "class": "Heavy"
+        },
+        {
+          "id": 136,
+          "name": "Warhammer WHM-7CS",
+          "class": "Heavy"
+        },
+        {
+          "id": 137,
+          "name": "Excalibur EXC-B2",
+          "class": "Heavy"
+        },
+        {
+          "id": 138,
+          "name": "Archer ARC-2R",
+          "class": "Heavy"
+        },
+        {
+          "id": 139,
+          "name": "Archer ARC-5CS",
+          "class": "Heavy"
+        },
+        {
+          "id": 140,
+          "name": "Bombardier BMB-12D",
+          "class": "Heavy"
+        },
+        {
+          "id": 141,
+          "name": "Marauder MAD-5CS",
+          "class": "Heavy"
+        },
+        {
+          "id": 142,
+          "name": "Rifleman RFL-3N",
+          "class": "Heavy"
+        },
+        {
+          "id": 143,
+          "name": "Lancelot LNC-25-01",
+          "class": "Heavy"
+        },
+        {
+          "id": 144,
+          "name": "Ostroc OSR-2D",
+          "class": "Heavy"
+        },
+        {
+          "id": 145,
+          "name": "Lancelot LNC-25-05",
+          "class": "Heavy"
+        },
+        {
+          "id": 146,
+          "name": "Exterminator EXT-4D",
+          "class": "Heavy"
+        },
+        {
+          "id": 147,
+          "name": "Rifleman RFL-5CS",
+          "class": "Heavy"
+        },
+        {
+          "id": 148,
+          "name": "Atlas AS7-D",
+          "class": "Assault"
+        },
+        {
+          "id": 149,
+          "name": "Cyclops CP-11-A",
+          "class": "Assault"
+        },
+        {
+          "id": 150,
+          "name": "King Crab KGC-000",
+          "class": "Assault"
+        },
+        {
+          "id": 151,
+          "name": "Stalker STK-5M",
+          "class": "Assault"
+        },
+        {
+          "id": 152,
+          "name": "Crockett CRK-5003-1",
+          "class": "Assault"
+        },
+        {
+          "id": 153,
+          "name": "Highlander HGN-732",
+          "class": "Assault"
+        },
+        {
+          "id": 154,
+          "name": "King Crab KGC-001",
+          "class": "Assault"
+        },
+        {
+          "id": 155,
+          "name": "Thug THG-11E",
+          "class": "Assault"
+        },
+        {
+          "id": 156,
+          "name": "Spartan SPT-N2",
+          "class": "Assault"
+        },
+        {
+          "id": 157,
+          "name": "Stalker STK-3F",
+          "class": "Assault"
+        },
+        {
+          "id": 158,
+          "name": "Awesome AWS-8Q",
+          "class": "Assault"
+        },
+        {
+          "id": 159,
+          "name": "Atlas AS7-K",
+          "class": "Assault"
+        },
+        {
+          "id": 160,
+          "name": "Victor VTR-9B",
+          "class": "Assault"
+        },
+        {
+          "id": 161,
+          "name": "BattleMaster BLR-3M",
+          "class": "Assault"
+        },
+        {
+          "id": 162,
+          "name": "Banshee BNC-3E",
+          "class": "Assault"
+        }
+      ],
+      "prices": {
+        "Light": {
+          "Regular": 6,
+          "Veteran": 8,
+          "Elite": 10
+        },
+        "Medium": {
+          "Regular": 10,
+          "Veteran": 12,
+          "Elite": 14
+        },
+        "Heavy": {
+          "Regular": 14,
+          "Veteran": 17,
+          "Elite": 19
+        },
+        "Assault": {
+          "Regular": 17,
+          "Veteran": 22,
+          "Elite": 25
+        }
+      },
+      "assignmentTables": {
+        "Assault": {
+          "Medium": [
+            {
+              "roll": 1,
+              "mechId": 114
+            },
+            {
+              "roll": 2,
+              "mechId": 115
+            },
+            {
+              "roll": 3,
+              "mechId": 116
+            },
+            {
+              "roll": 4,
+              "mechId": 117
+            },
+            {
+              "roll": 5,
+              "mechId": 118
+            },
+            {
+              "roll": 6,
+              "mechId": 119
+            }
+          ],
+          "Heavy": [
+            {
+              "roll": 1,
+              "mechId": 102
+            },
+            {
+              "roll": 2,
+              "mechId": 129
+            },
+            {
+              "roll": 3,
+              "mechId": 130
+            },
+            {
+              "roll": 4,
+              "mechId": 131
+            },
+            {
+              "roll": 5,
+              "mechId": 132
+            },
+            {
+              "roll": 6,
+              "mechId": 101
+            }
+          ],
+          "Assault": [
+            {
+              "roll": 1,
+              "mechId": 148
+            },
+            {
+              "roll": 2,
+              "mechId": 149
+            },
+            {
+              "roll": 3,
+              "mechId": 150
+            },
+            {
+              "roll": 4,
+              "mechId": 151
+            },
+            {
+              "roll": 5,
+              "mechId": 152
+            },
+            {
+              "roll": 6,
+              "mechId": 153
+            }
+          ]
+        },
+        "Battle": {
+          "Light": [
+            {
+              "roll": 1,
+              "mechId": 103
+            },
+            {
+              "roll": 2,
+              "mechId": 104
+            },
+            {
+              "roll": 3,
+              "mechId": 105
+            },
+            {
+              "roll": 4,
+              "mechId": 106
+            },
+            {
+              "roll": 5,
+              "mechId": 107
+            },
+            {
+              "roll": 6,
+              "mechId": 107
+            }
+          ],
+          "Medium": [
+            {
+              "roll": 1,
+              "mechId": 119
+            },
+            {
+              "roll": 2,
+              "mechId": 118
+            },
+            {
+              "roll": 3,
+              "mechId": 120
+            },
+            {
+              "roll": 4,
+              "mechId": 119
+            },
+            {
+              "roll": 5,
+              "mechId": 121
+            },
+            {
+              "roll": 6,
+              "mechId": 115
+            }
+          ],
+          "Heavy": [
+            {
+              "roll": 1,
+              "mechId": 133
+            },
+            {
+              "roll": 2,
+              "mechId": 134
+            },
+            {
+              "roll": 3,
+              "mechId": 101
+            },
+            {
+              "roll": 4,
+              "mechId": 135
+            },
+            {
+              "roll": 5,
+              "mechId": 136
+            },
+            {
+              "roll": 6,
+              "mechId": 137
+            }
+          ],
+          "Assault": [
+            {
+              "roll": 1,
+              "mechId": 154
+            },
+            {
+              "roll": 2,
+              "mechId": 152
+            },
+            {
+              "roll": 3,
+              "mechId": 155
+            },
+            {
+              "roll": 4,
+              "mechId": 156
+            },
+            {
+              "roll": 5,
+              "mechId": 149
+            },
+            {
+              "roll": 6,
+              "mechId": 157
+            }
+          ]
+        },
+        "Fire": {
+          "Light": [
+            {
+              "roll": 1,
+              "mechId": 103
+            },
+            {
+              "roll": 2,
+              "mechId": 108
+            },
+            {
+              "roll": 3,
+              "mechId": 103
+            },
+            {
+              "roll": 4,
+              "mechId": 107
+            },
+            {
+              "roll": 5,
+              "mechId": 100
+            },
+            {
+              "roll": 6,
+              "mechId": 100
+            }
+          ],
+          "Medium": [
+            {
+              "roll": 1,
+              "mechId": 122
+            },
+            {
+              "roll": 2,
+              "mechId": 118
+            },
+            {
+              "roll": 3,
+              "mechId": 123
+            },
+            {
+              "roll": 4,
+              "mechId": 124
+            },
+            {
+              "roll": 5,
+              "mechId": 125
+            },
+            {
+              "roll": 6,
+              "mechId": 126
+            }
+          ],
+          "Heavy": [
+            {
+              "roll": 1,
+              "mechId": 138
+            },
+            {
+              "roll": 2,
+              "mechId": 139
+            },
+            {
+              "roll": 3,
+              "mechId": 140
+            },
+            {
+              "roll": 4,
+              "mechId": 136
+            },
+            {
+              "roll": 5,
+              "mechId": 141
+            },
+            {
+              "roll": 6,
+              "mechId": 142
+            }
+          ],
+          "Assault": [
+            {
+              "roll": 1,
+              "mechId": 153
+            },
+            {
+              "roll": 2,
+              "mechId": 158
+            },
+            {
+              "roll": 3,
+              "mechId": 155
+            },
+            {
+              "roll": 4,
+              "mechId": 149
+            },
+            {
+              "roll": 5,
+              "mechId": 159
+            },
+            {
+              "roll": 6,
+              "mechId": 151
+            }
+          ]
+        },
+        "Striker": {
+          "Light": [
+            {
+              "roll": 1,
+              "mechId": 109
+            },
+            {
+              "roll": 2,
+              "mechId": 110
+            },
+            {
+              "roll": 3,
+              "mechId": 111
+            },
+            {
+              "roll": 4,
+              "mechId": 112
+            },
+            {
+              "roll": 5,
+              "mechId": 113
+            },
+            {
+              "roll": 6,
+              "mechId": 105
+            }
+          ],
+          "Medium": [
+            {
+              "roll": 1,
+              "mechId": 127
+            },
+            {
+              "roll": 2,
+              "mechId": 121
+            },
+            {
+              "roll": 3,
+              "mechId": 118
+            },
+            {
+              "roll": 4,
+              "mechId": 128
+            },
+            {
+              "roll": 5,
+              "mechId": 119
+            },
+            {
+              "roll": 6,
+              "mechId": 119
+            }
+          ],
+          "Heavy": [
+            {
+              "roll": 1,
+              "mechId": 143
+            },
+            {
+              "roll": 2,
+              "mechId": 102
+            },
+            {
+              "roll": 3,
+              "mechId": 144
+            },
+            {
+              "roll": 4,
+              "mechId": 145
+            },
+            {
+              "roll": 5,
+              "mechId": 146
+            },
+            {
+              "roll": 6,
+              "mechId": 147
+            }
+          ],
+          "Assault": [
+            {
+              "roll": 1,
+              "mechId": 160
+            },
+            {
+              "roll": 2,
+              "mechId": 161
+            },
+            {
+              "roll": 3,
+              "mechId": 162
+            },
+            {
+              "roll": 4,
+              "mechId": 153
+            },
+            {
+              "roll": 5,
+              "mechId": 160
+            },
+            {
+              "roll": 6,
+              "mechId": 149
+            }
+          ]
+        }
+      }
+    },
+    "Clan": {
+      "Front-line": {
+        "unitSize": 5,
+        "mechs": [
+          {
+            "id": 200,
+            "name": "Adder Prime",
+            "class": "Light"
+          },
+          {
+            "id": 201,
+            "name": "Arctic Cheetah Prime",
+            "class": "Light"
+          },
+          {
+            "id": 202,
+            "name": "Adder B",
+            "class": "Light"
+          },
+          {
+            "id": 203,
+            "name": "Fire Moth B",
+            "class": "Light"
+          },
+          {
+            "id": 204,
+            "name": "Kit Fox Prime",
+            "class": "Light"
+          },
+          {
+            "id": 205,
+            "name": "Mist Lynx B",
+            "class": "Light"
+          },
+          {
+            "id": 206,
+            "name": "Adder A",
+            "class": "Light"
+          },
+          {
+            "id": 207,
+            "name": "Mist Lynx A",
+            "class": "Light"
+          },
+          {
+            "id": 208,
+            "name": "Kit Fox A",
+            "class": "Light"
+          },
+          {
+            "id": 209,
+            "name": "Fire Moth C",
+            "class": "Light"
+          },
+          {
+            "id": 210,
+            "name": "Fire Moth A",
+            "class": "Light"
+          },
+          {
+            "id": 211,
+            "name": "Mist Lynx C",
+            "class": "Light"
+          },
+          {
+            "id": 212,
+            "name": "Kit Fox C",
+            "class": "Light"
+          },
+          {
+            "id": 213,
+            "name": "Kit Fox B",
+            "class": "Light"
+          },
+          {
+            "id": 214,
+            "name": "Arctic Cheetah A",
+            "class": "Light"
+          },
+          {
+            "id": 215,
+            "name": "Mist Lynx Prime",
+            "class": "Light"
+          },
+          {
+            "id": 216,
+            "name": "Nova Prime",
+            "class": "Medium"
+          },
+          {
+            "id": 217,
+            "name": "Nova S",
+            "class": "Medium"
+          },
+          {
+            "id": 218,
+            "name": "Stormcrow B",
+            "class": "Medium"
+          },
+          {
+            "id": 219,
+            "name": "Stormcrow Prime",
+            "class": "Medium"
+          },
+          {
+            "id": 220,
+            "name": "Ice Ferret Prime",
+            "class": "Medium"
+          },
+          {
+            "id": 221,
+            "name": "Viper C",
+            "class": "Medium"
+          },
+          {
+            "id": 222,
+            "name": "Stormcrow A",
+            "class": "Medium"
+          },
+          {
+            "id": 223,
+            "name": "Nova A",
+            "class": "Medium"
+          },
+          {
+            "id": 224,
+            "name": "Viper D",
+            "class": "Medium"
+          },
+          {
+            "id": 225,
+            "name": "Battle Cobra B",
+            "class": "Medium"
+          },
+          {
+            "id": 226,
+            "name": "Viper B",
+            "class": "Medium"
+          },
+          {
+            "id": 227,
+            "name": "Ice Ferret C",
+            "class": "Medium"
+          },
+          {
+            "id": 228,
+            "name": "Nova C",
+            "class": "Medium"
+          },
+          {
+            "id": 229,
+            "name": "Stormcrow D",
+            "class": "Medium"
+          },
+          {
+            "id": 230,
+            "name": "Nova B",
+            "class": "Medium"
+          },
+          {
+            "id": 231,
+            "name": "Viper Prime",
+            "class": "Medium"
+          },
+          {
+            "id": 232,
+            "name": "Viper A",
+            "class": "Medium"
+          },
+          {
+            "id": 233,
+            "name": "Ice Ferret A",
+            "class": "Medium"
+          },
+          {
+            "id": 234,
+            "name": "Battle Cobra Prime",
+            "class": "Medium"
+          },
+          {
+            "id": 235,
+            "name": "Summoner C",
+            "class": "Heavy"
+          },
+          {
+            "id": 236,
+            "name": "Mad Dog D",
+            "class": "Heavy"
+          },
+          {
+            "id": 237,
+            "name": "Summoner D",
+            "class": "Heavy"
+          },
+          {
+            "id": 238,
+            "name": "Timber Wolf S",
+            "class": "Heavy"
+          },
+          {
+            "id": 239,
+            "name": "Timber Wolf D",
+            "class": "Heavy"
+          },
+          {
+            "id": 240,
+            "name": "Crossbow A",
+            "class": "Heavy"
+          },
+          {
+            "id": 241,
+            "name": "Hellbringer B",
+            "class": "Heavy"
+          },
+          {
+            "id": 242,
+            "name": "Timber Wolf Prime",
+            "class": "Heavy"
+          },
+          {
+            "id": 243,
+            "name": "Summoner A",
+            "class": "Heavy"
+          },
+          {
+            "id": 244,
+            "name": "Summoner B",
+            "class": "Heavy"
+          },
+          {
+            "id": 245,
+            "name": "Mad Dog Prime",
+            "class": "Heavy"
+          },
+          {
+            "id": 246,
+            "name": "Timber Wolf B",
+            "class": "Heavy"
+          },
+          {
+            "id": 247,
+            "name": "Hellbringer A",
+            "class": "Heavy"
+          },
+          {
+            "id": 248,
+            "name": "Summoner Prime",
+            "class": "Heavy"
+          },
+          {
+            "id": 249,
+            "name": "Mad Dog C",
+            "class": "Heavy"
+          },
+          {
+            "id": 250,
+            "name": "Timber Wolf C",
+            "class": "Heavy"
+          },
+          {
+            "id": 251,
+            "name": "Summoner M",
+            "class": "Heavy"
+          },
+          {
+            "id": 252,
+            "name": "Mad Dog A",
+            "class": "Heavy"
+          },
+          {
+            "id": 253,
+            "name": "Mad Dog B",
+            "class": "Heavy"
+          },
+          {
+            "id": 254,
+            "name": "Hellbringer Prime",
+            "class": "Heavy"
+          },
+          {
+            "id": 255,
+            "name": "Timber Wolf A",
+            "class": "Heavy"
+          },
+          {
+            "id": 256,
+            "name": "Hellbringer C",
+            "class": "Heavy"
+          },
+          {
+            "id": 257,
+            "name": "Dire Wolf Prime",
+            "class": "Assault"
+          },
+          {
+            "id": 258,
+            "name": "Warhawk A",
+            "class": "Assault"
+          },
+          {
+            "id": 259,
+            "name": "Gargoyle C",
+            "class": "Assault"
+          },
+          {
+            "id": 260,
+            "name": "Executioner D",
+            "class": "Assault"
+          },
+          {
+            "id": 261,
+            "name": "Dire Wolf S",
+            "class": "Assault"
+          },
+          {
+            "id": 262,
+            "name": "Warhawk Prime",
+            "class": "Assault"
+          },
+          {
+            "id": 263,
+            "name": "Executioner A",
+            "class": "Assault"
+          },
+          {
+            "id": 264,
+            "name": "Gargoyle A",
+            "class": "Assault"
+          },
+          {
+            "id": 265,
+            "name": "Gargoyle Prime",
+            "class": "Assault"
+          },
+          {
+            "id": 266,
+            "name": "Warhawk B",
+            "class": "Assault"
+          },
+          {
+            "id": 267,
+            "name": "Warhawk D",
+            "class": "Assault"
+          },
+          {
+            "id": 268,
+            "name": "Kingfisher Prime",
+            "class": "Assault"
+          },
+          {
+            "id": 269,
+            "name": "Executioner Prime",
+            "class": "Assault"
+          },
+          {
+            "id": 270,
+            "name": "Dire Wolf A",
+            "class": "Assault"
+          },
+          {
+            "id": 271,
+            "name": "Gargoyle B",
+            "class": "Assault"
+          },
+          {
+            "id": 272,
+            "name": "Naga Prime",
+            "class": "Assault"
+          },
+          {
+            "id": 273,
+            "name": "Warhawk C",
+            "class": "Assault"
+          },
+          {
+            "id": 274,
+            "name": "Dire Wolf B",
+            "class": "Assault"
+          },
+          {
+            "id": 275,
+            "name": "Executioner B",
+            "class": "Assault"
+          },
+          {
+            "id": 276,
+            "name": "Gargoyle D",
+            "class": "Assault"
+          },
+          {
+            "id": 277,
+            "name": "Executioner C",
+            "class": "Assault"
+          }
+        ],
+        "prices": {
+          "Light": {
+            "Veteran": 12,
+            "Elite": 14,
+            "Heroic": 15
+          },
+          "Medium": {
+            "Veteran": 18,
+            "Elite": 20,
+            "Heroic": 22
+          },
+          "Heavy": {
+            "Veteran": 26,
+            "Elite": 30,
+            "Heroic": 32
+          },
+          "Assault": {
+            "Veteran": 32,
+            "Elite": 37,
+            "Heroic": 39
+          }
+        },
+        "assignmentTables": {
+          "Assault": {
+            "Medium": [
+              {
+                "roll": 1,
+                "mechId": 216
+              },
+              {
+                "roll": 2,
+                "mechId": 217
+              },
+              {
+                "roll": 3,
+                "mechId": 218
+              },
+              {
+                "roll": 4,
+                "mechId": 219
+              },
+              {
+                "roll": 5,
+                "mechId": 220
+              },
+              {
+                "roll": 6,
+                "mechId": 221
+              }
+            ],
+            "Heavy": [
+              {
+                "roll": 1,
+                "mechId": 235
+              },
+              {
+                "roll": 2,
+                "mechId": 236
+              },
+              {
+                "roll": 3,
+                "mechId": 237
+              },
+              {
+                "roll": 4,
+                "mechId": 238
+              },
+              {
+                "roll": 5,
+                "mechId": 239
+              },
+              {
+                "roll": 6,
+                "mechId": 240
+              }
+            ],
+            "Assault": [
+              {
+                "roll": 1,
+                "mechId": 257
+              },
+              {
+                "roll": 2,
+                "mechId": 258
+              },
+              {
+                "roll": 3,
+                "mechId": 259
+              },
+              {
+                "roll": 4,
+                "mechId": 260
+              },
+              {
+                "roll": 5,
+                "mechId": 261
+              },
+              {
+                "roll": 6,
+                "mechId": 262
+              }
+            ]
+          },
+          "Battle": {
+            "Light": [
+              {
+                "roll": 1,
+                "mechId": 200
+              },
+              {
+                "roll": 2,
+                "mechId": 201
+              },
+              {
+                "roll": 3,
+                "mechId": 202
+              },
+              {
+                "roll": 4,
+                "mechId": 203
+              },
+              {
+                "roll": 5,
+                "mechId": 204
+              },
+              {
+                "roll": 6,
+                "mechId": 205
+              }
+            ],
+            "Medium": [
+              {
+                "roll": 1,
+                "mechId": 222
+              },
+              {
+                "roll": 2,
+                "mechId": 220
+              },
+              {
+                "roll": 3,
+                "mechId": 223
+              },
+              {
+                "roll": 4,
+                "mechId": 224
+              },
+              {
+                "roll": 5,
+                "mechId": 219
+              },
+              {
+                "roll": 6,
+                "mechId": 216
+              }
+            ],
+            "Heavy": [
+              {
+                "roll": 1,
+                "mechId": 241
+              },
+              {
+                "roll": 2,
+                "mechId": 242
+              },
+              {
+                "roll": 3,
+                "mechId": 243
+              },
+              {
+                "roll": 4,
+                "mechId": 244
+              },
+              {
+                "roll": 5,
+                "mechId": 245
+              },
+              {
+                "roll": 6,
+                "mechId": 246
+              }
+            ],
+            "Assault": [
+              {
+                "roll": 1,
+                "mechId": 263
+              },
+              {
+                "roll": 2,
+                "mechId": 264
+              },
+              {
+                "roll": 3,
+                "mechId": 266
+              },
+              {
+                "roll": 4,
+                "mechId": 267
+              },
+              {
+                "roll": 5,
+                "mechId": 268
+              },
+              {
+                "roll": 6,
+                "mechId": 269
+              }
+            ]
+          },
+          "Fire": {
+            "Light": [
+              {
+                "roll": 1,
+                "mechId": 206
+              },
+              {
+                "roll": 2,
+                "mechId": 200
+              },
+              {
+                "roll": 3,
+                "mechId": 207
+              },
+              {
+                "roll": 4,
+                "mechId": 208
+              },
+              {
+                "roll": 5,
+                "mechId": 200
+              },
+              {
+                "roll": 6,
+                "mechId": 209
+              }
+            ],
+            "Medium": [
+              {
+                "roll": 1,
+                "mechId": 225
+              },
+              {
+                "roll": 2,
+                "mechId": 226
+              },
+              {
+                "roll": 3,
+                "mechId": 227
+              },
+              {
+                "roll": 4,
+                "mechId": 228
+              },
+              {
+                "roll": 5,
+                "mechId": 229
+              },
+              {
+                "roll": 6,
+                "mechId": 219
+              }
+            ],
+            "Heavy": [
+              {
+                "roll": 1,
+                "mechId": 247
+              },
+              {
+                "roll": 2,
+                "mechId": 245
+              },
+              {
+                "roll": 3,
+                "mechId": 248
+              },
+              {
+                "roll": 4,
+                "mechId": 249
+              },
+              {
+                "roll": 5,
+                "mechId": 250
+              },
+              {
+                "roll": 6,
+                "mechId": 251
+              }
+            ],
+            "Assault": [
+              {
+                "roll": 1,
+                "mechId": 270
+              },
+              {
+                "roll": 2,
+                "mechId": 262
+              },
+              {
+                "roll": 3,
+                "mechId": 271
+              },
+              {
+                "roll": 4,
+                "mechId": 272
+              },
+              {
+                "roll": 5,
+                "mechId": 273
+              },
+              {
+                "roll": 6,
+                "mechId": 274
+              }
+            ]
+          },
+          "Striker": {
+            "Light": [
+              {
+                "roll": 1,
+                "mechId": 210
+              },
+              {
+                "roll": 2,
+                "mechId": 211
+              },
+              {
+                "roll": 3,
+                "mechId": 212
+              },
+              {
+                "roll": 4,
+                "mechId": 213
+              },
+              {
+                "roll": 5,
+                "mechId": 214
+              },
+              {
+                "roll": 6,
+                "mechId": 215
+              }
+            ],
+            "Medium": [
+              {
+                "roll": 1,
+                "mechId": 230
+              },
+              {
+                "roll": 2,
+                "mechId": 231
+              },
+              {
+                "roll": 3,
+                "mechId": 219
+              },
+              {
+                "roll": 4,
+                "mechId": 232
+              },
+              {
+                "roll": 5,
+                "mechId": 233
+              },
+              {
+                "roll": 6,
+                "mechId": 234
+              }
+            ],
+            "Heavy": [
+              {
+                "roll": 1,
+                "mechId": 253
+              },
+              {
+                "roll": 2,
+                "mechId": 254
+              },
+              {
+                "roll": 3,
+                "mechId": 255
+              },
+              {
+                "roll": 4,
+                "mechId": 242
+              },
+              {
+                "roll": 5,
+                "mechId": 252
+              },
+              {
+                "roll": 6,
+                "mechId": 256
+              }
+            ],
+            "Assault": [
+              {
+                "roll": 1,
+                "mechId": 275
+              },
+              {
+                "roll": 2,
+                "mechId": 265
+              },
+              {
+                "roll": 3,
+                "mechId": 276
+              },
+              {
+                "roll": 4,
+                "mechId": 277
+              },
+              {
+                "roll": 5,
+                "mechId": 269
+              },
+              {
+                "roll": 6,
+                "mechId": 264
+              }
+            ]
+          }
+        }
+      },
+      "Second-line": {
+        "unitSize": 5,
+        "mechs": [
+          {
+            "id": 300,
+            "name": "Summoner Prime",
+            "class": "Heavy"
+          },
+          {
+            "id": 301,
+            "name": "Gargoyle Prime",
+            "class": "Assault"
+          },
+          {
+            "id": 302,
+            "name": "Executioner Prime",
+            "class": "Assault"
+          },
+          {
+            "id": 303,
+            "name": "Horned Owl",
+            "class": "Light"
+          },
+          {
+            "id": 304,
+            "name": "Horned Owl 2",
+            "class": "Light"
+          },
+          {
+            "id": 305,
+            "name": "Jenner IIC 2",
+            "class": "Light"
+          },
+          {
+            "id": 306,
+            "name": "Piranha",
+            "class": "Light"
+          },
+          {
+            "id": 307,
+            "name": "Incubus",
+            "class": "Light"
+          },
+          {
+            "id": 308,
+            "name": "Locust IIC 3",
+            "class": "Light"
+          },
+          {
+            "id": 309,
+            "name": "Incubus 2",
+            "class": "Light"
+          },
+          {
+            "id": 310,
+            "name": "Talon TLN-5W",
+            "class": "Light"
+          },
+          {
+            "id": 311,
+            "name": "Thorn THE-N",
+            "class": "Light"
+          },
+          {
+            "id": 312,
+            "name": "Jenner IIC",
+            "class": "Light"
+          },
+          {
+            "id": 313,
+            "name": "Locust IIC",
+            "class": "Light"
+          },
+          {
+            "id": 314,
+            "name": "Firefly C",
+            "class": "Light"
+          },
+          {
+            "id": 315,
+            "name": "Hunchback IIC",
+            "class": "Medium"
+          },
+          {
+            "id": 316,
+            "name": "Shadow Hawk IIC",
+            "class": "Medium"
+          },
+          {
+            "id": 317,
+            "name": "Shadow Hawk IIC 2",
+            "class": "Medium"
+          },
+          {
+            "id": 318,
+            "name": "Conjurer",
+            "class": "Medium"
+          },
+          {
+            "id": 319,
+            "name": "Griffin IIC 2",
+            "class": "Medium"
+          },
+          {
+            "id": 320,
+            "name": "Great Wyrm",
+            "class": "Medium"
+          },
+          {
+            "id": 321,
+            "name": "Wyvern IIC",
+            "class": "Medium"
+          },
+          {
+            "id": 322,
+            "name": "Vapor Eagle",
+            "class": "Medium"
+          },
+          {
+            "id": 323,
+            "name": "Griffin IIC",
+            "class": "Medium"
+          },
+          {
+            "id": 324,
+            "name": "Clint IIC",
+            "class": "Medium"
+          },
+          {
+            "id": 325,
+            "name": "Shadow Hawk C",
+            "class": "Medium"
+          },
+          {
+            "id": 326,
+            "name": "Guillotine IIC",
+            "class": "Heavy"
+          },
+          {
+            "id": 327,
+            "name": "Thunderbolt C",
+            "class": "Heavy"
+          },
+          {
+            "id": 328,
+            "name": "Warhammer C",
+            "class": "Heavy"
+          },
+          {
+            "id": 329,
+            "name": "Black Knight BL-6-KNT",
+            "class": "Heavy"
+          },
+          {
+            "id": 330,
+            "name": "Marauder C",
+            "class": "Heavy"
+          },
+          {
+            "id": 331,
+            "name": "Rifleman IIC",
+            "class": "Heavy"
+          },
+          {
+            "id": 332,
+            "name": "Archer C",
+            "class": "Heavy"
+          },
+          {
+            "id": 333,
+            "name": "Rifleman C",
+            "class": "Heavy"
+          },
+          {
+            "id": 334,
+            "name": "Glass Spider",
+            "class": "Heavy"
+          },
+          {
+            "id": 335,
+            "name": "Lancelot LNC-01-25",
+            "class": "Heavy"
+          },
+          {
+            "id": 336,
+            "name": "Flashman FLS-8K",
+            "class": "Heavy"
+          },
+          {
+            "id": 337,
+            "name": "Champion C",
+            "class": "Heavy"
+          },
+          {
+            "id": 338,
+            "name": "Stone Rhino",
+            "class": "Assault"
+          },
+          {
+            "id": 339,
+            "name": "Atlas C",
+            "class": "Assault"
+          },
+          {
+            "id": 340,
+            "name": "Warhammer IIC",
+            "class": "Assault"
+          },
+          {
+            "id": 341,
+            "name": "Bane",
+            "class": "Assault"
+          },
+          {
+            "id": 342,
+            "name": "Highlander IIC",
+            "class": "Assault"
+          },
+          {
+            "id": 343,
+            "name": "Marauder IIC",
+            "class": "Assault"
+          },
+          {
+            "id": 344,
+            "name": "Kodiak",
+            "class": "Assault"
+          },
+          {
+            "id": 345,
+            "name": "Phoenix Hawk IIC",
+            "class": "Assault"
+          },
+          {
+            "id": 346,
+            "name": "Phoenix Hawk IIC 2",
+            "class": "Assault"
+          },
+          {
+            "id": 347,
+            "name": "Victor C",
+            "class": "Assault"
+          }
+        ],
+        "prices": {
+          "Light": {
+            "Veteran": 10,
+            "Elite": 12,
+            "Heroic": 13
+          },
+          "Medium": {
+            "Veteran": 15,
+            "Elite": 18,
+            "Heroic": 19
+          },
+          "Heavy": {
+            "Veteran": 22,
+            "Elite": 26,
+            "Heroic": 28
+          },
+          "Assault": {
+            "Veteran": 26,
+            "Elite": 31,
+            "Heroic": 33
+          }
+        },
+        "assignmentTables": {
+          "Assault": {
+            "Medium": [
+              {
+                "roll": 1,
+                "mechId": 315
+              },
+              {
+                "roll": 2,
+                "mechId": 315
+              },
+              {
+                "roll": 3,
+                "mechId": 316
+              },
+              {
+                "roll": 4,
+                "mechId": 318
+              },
+              {
+                "roll": 5,
+                "mechId": 316
+              },
+              {
+                "roll": 6,
+                "mechId": 319
+              }
+            ],
+            "Heavy": [
+              {
+                "roll": 1,
+                "mechId": 326
+              },
+              {
+                "roll": 2,
+                "mechId": 327
+              },
+              {
+                "roll": 3,
+                "mechId": 328
+              },
+              {
+                "roll": 4,
+                "mechId": 329
+              },
+              {
+                "roll": 5,
+                "mechId": 330
+              },
+              {
+                "roll": 6,
+                "mechId": 300
+              }
+            ],
+            "Assault": [
+              {
+                "roll": 1,
+                "mechId": 338
+              },
+              {
+                "roll": 2,
+                "mechId": 339
+              },
+              {
+                "roll": 3,
+                "mechId": 340
+              },
+              {
+                "roll": 4,
+                "mechId": 341
+              },
+              {
+                "roll": 5,
+                "mechId": 342
+              },
+              {
+                "roll": 6,
+                "mechId": 343
+              }
+            ]
+          },
+          "Battle": {
+            "Light": [
+              {
+                "roll": 1,
+                "mechId": 303
+              },
+              {
+                "roll": 2,
+                "mechId": 304
+              },
+              {
+                "roll": 3,
+                "mechId": 305
+              },
+              {
+                "roll": 4,
+                "mechId": 303
+              },
+              {
+                "roll": 5,
+                "mechId": 306
+              },
+              {
+                "roll": 6,
+                "mechId": 307
+              }
+            ],
+            "Medium": [
+              {
+                "roll": 1,
+                "mechId": 320
+              },
+              {
+                "roll": 2,
+                "mechId": 321
+              },
+              {
+                "roll": 3,
+                "mechId": 316
+              },
+              {
+                "roll": 4,
+                "mechId": 322
+              },
+              {
+                "roll": 5,
+                "mechId": 316
+              },
+              {
+                "roll": 6,
+                "mechId": 323
+              }
+            ],
+            "Heavy": [
+              {
+                "roll": 1,
+                "mechId": 326
+              },
+              {
+                "roll": 2,
+                "mechId": 331
+              },
+              {
+                "roll": 3,
+                "mechId": 327
+              },
+              {
+                "roll": 4,
+                "mechId": 328
+              },
+              {
+                "roll": 5,
+                "mechId": 330
+              },
+              {
+                "roll": 6,
+                "mechId": 332
+              }
+            ],
+            "Assault": [
+              {
+                "roll": 1,
+                "mechId": 338
+              },
+              {
+                "roll": 2,
+                "mechId": 342
+              },
+              {
+                "roll": 3,
+                "mechId": 343
+              },
+              {
+                "roll": 4,
+                "mechId": 340
+              },
+              {
+                "roll": 5,
+                "mechId": 344
+              },
+              {
+                "roll": 6,
+                "mechId": 339
+              }
+            ]
+          },
+          "Fire": {
+            "Light": [
+              {
+                "roll": 1,
+                "mechId": 303
+              },
+              {
+                "roll": 2,
+                "mechId": 307
+              },
+              {
+                "roll": 3,
+                "mechId": 308
+              },
+              {
+                "roll": 4,
+                "mechId": 309
+              },
+              {
+                "roll": 5,
+                "mechId": 310
+              },
+              {
+                "roll": 6,
+                "mechId": 311
+              }
+            ],
+            "Medium": [
+              {
+                "roll": 1,
+                "mechId": 324
+              },
+              {
+                "roll": 2,
+                "mechId": 318
+              },
+              {
+                "roll": 3,
+                "mechId": 322
+              },
+              {
+                "roll": 4,
+                "mechId": 317
+              },
+              {
+                "roll": 5,
+                "mechId": 320
+              },
+              {
+                "roll": 6,
+                "mechId": 323
+              }
+            ],
+            "Heavy": [
+              {
+                "roll": 1,
+                "mechId": 333
+              },
+              {
+                "roll": 2,
+                "mechId": 331
+              },
+              {
+                "roll": 3,
+                "mechId": 334
+              },
+              {
+                "roll": 4,
+                "mechId": 328
+              },
+              {
+                "roll": 5,
+                "mechId": 330
+              },
+              {
+                "roll": 6,
+                "mechId": 332
+              }
+            ],
+            "Assault": [
+              {
+                "roll": 1,
+                "mechId": 341
+              },
+              {
+                "roll": 2,
+                "mechId": 342
+              },
+              {
+                "roll": 3,
+                "mechId": 345
+              },
+              {
+                "roll": 4,
+                "mechId": 340
+              },
+              {
+                "roll": 5,
+                "mechId": 338
+              },
+              {
+                "roll": 6,
+                "mechId": 341
+              }
+            ]
+          },
+          "Striker": {
+            "Light": [
+              {
+                "roll": 1,
+                "mechId": 303
+              },
+              {
+                "roll": 2,
+                "mechId": 307
+              },
+              {
+                "roll": 3,
+                "mechId": 312
+              },
+              {
+                "roll": 4,
+                "mechId": 313
+              },
+              {
+                "roll": 5,
+                "mechId": 314
+              },
+              {
+                "roll": 6,
+                "mechId": 306
+              }
+            ],
+            "Medium": [
+              {
+                "roll": 1,
+                "mechId": 322
+              },
+              {
+                "roll": 2,
+                "mechId": 318
+              },
+              {
+                "roll": 3,
+                "mechId": 316
+              },
+              {
+                "roll": 4,
+                "mechId": 316
+              },
+              {
+                "roll": 5,
+                "mechId": 325
+              },
+              {
+                "roll": 6,
+                "mechId": 323
+              }
+            ],
+            "Heavy": [
+              {
+                "roll": 1,
+                "mechId": 335
+              },
+              {
+                "roll": 2,
+                "mechId": 336
+              },
+              {
+                "roll": 3,
+                "mechId": 337
+              },
+              {
+                "roll": 4,
+                "mechId": 335
+              },
+              {
+                "roll": 5,
+                "mechId": 336
+              },
+              {
+                "roll": 6,
+                "mechId": 337
+              }
+            ],
+            "Assault": [
+              {
+                "roll": 1,
+                "mechId": 345
+              },
+              {
+                "roll": 2,
+                "mechId": 346
+              },
+              {
+                "roll": 3,
+                "mechId": 302
+              },
+              {
+                "roll": 4,
+                "mechId": 345
+              },
+              {
+                "roll": 5,
+                "mechId": 301
+              },
+              {
+                "roll": 6,
+                "mechId": 347
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

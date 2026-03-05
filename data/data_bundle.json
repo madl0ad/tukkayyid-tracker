@@ -1,0 +1,579 @@
+{
+  "mechs": {
+    "adder_prime": "Adder Prime",
+    "arctic_cheetah_prime": "Arctic Cheetah Prime",
+    "adder_b": "Adder B",
+    "fire_moth_b": "Fire Moth B",
+    "kit_fox_prime": "Kit Fox Prime",
+    "mist_lynx_b": "Mist Lynx B",
+    "adder_a": "Adder A",
+    "mist_lynx_a": "Mist Lynx A",
+    "kit_fox_a": "Kit Fox A",
+    "fire_moth_c": "Fire Moth C",
+    "fire_moth_a": "Fire Moth A",
+    "mist_lynx_c": "Mist Lynx C",
+    "kit_fox_c": "Kit Fox C",
+    "kit_fox_b": "Kit Fox B",
+    "arctic_cheetah_a": "Arctic Cheetah A",
+    "mist_lynx_prime": "Mist Lynx Prime",
+    "nova_prime": "Nova Prime",
+    "nova_s": "Nova S",
+    "stormcrow_b": "Stormcrow B",
+    "stormcrow_prime": "Stormcrow Prime",
+    "ice_ferret_prime": "Ice Ferret Prime",
+    "viper_c": "Viper C",
+    "stormcrow_a": "Stormcrow A",
+    "nova_a": "Nova A",
+    "viper_d": "Viper D",
+    "battle_cobra_b": "Battle Cobra B",
+    "viper_b": "Viper B",
+    "ice_ferret_c": "Ice Ferret C",
+    "nova_c": "Nova C",
+    "stormcrow_d": "Stormcrow D",
+    "nova_b": "Nova B",
+    "viper_prime": "Viper Prime",
+    "viper_a": "Viper A",
+    "ice_ferret_a": "Ice Ferret A",
+    "battle_cobra_prime": "Battle Cobra Prime",
+    "summoner_c": "Summoner C",
+    "mad_dog_d": "Mad Dog D",
+    "summoner_d": "Summoner D",
+    "timber_wolf_s": "Timber Wolf S",
+    "timber_wolf_d": "Timber Wolf D",
+    "crossbow_a": "Crossbow A",
+    "hellbringer_b": "Hellbringer B",
+    "timber_wolf_prime": "Timber Wolf Prime",
+    "summoner_a": "Summoner A",
+    "summoner_b": "Summoner B",
+    "mad_dog_prime": "Mad Dog Prime",
+    "timber_wolf_b": "Timber Wolf B",
+    "hellbringer_a": "Hellbringer A",
+    "summoner_prime": "Summoner Prime",
+    "mad_dog_c": "Mad Dog C",
+    "timber_wolf_c": "Timber Wolf C",
+    "summoner_m": "Summoner M",
+    "mad_dog_a": "Mad Dog A",
+    "mad_dog_b": "Mad Dog B",
+    "hellbringer_prime": "Hellbringer Prime",
+    "timber_wolf_a": "Timber Wolf A",
+    "hellbringer_c": "Hellbringer C",
+    "dire_wolf_prime": "Dire Wolf Prime",
+    "warhawk_a": "Warhawk A",
+    "gargoyle_c": "Gargoyle C",
+    "executioner_d": "Executioner D",
+    "dire_wolf_s": "Dire Wolf S",
+    "warhawk_prime": "Warhawk Prime",
+    "executioner_a": "Executioner A",
+    "gargoyle_a": "Gargoyle A",
+    "gargoyle_prime": "Gargoyle Prime",
+    "warhawk_b": "Warhawk B",
+    "warhawk_d": "Warhawk D",
+    "kingfisher_prime": "Kingfisher Prime",
+    "executioner_prime": "Executioner Prime",
+    "dire_wolf_a": "Dire Wolf A",
+    "gargoyle_b": "Gargoyle B",
+    "naga_prime": "Naga Prime",
+    "warhawk_c": "Warhawk C",
+    "dire_wolf_b": "Dire Wolf B",
+    "executioner_b": "Executioner B",
+    "gargoyle_d": "Gargoyle D",
+    "executioner_c": "Executioner C",
+    "horned_owl": "Horned Owl",
+    "horned_owl_2": "Horned Owl 2",
+    "jenner_iic_2": "Jenner IIC 2",
+    "piranha": "Piranha",
+    "incubus": "Incubus",
+    "locust_iic_3": "Locust IIC 3",
+    "incubus_2": "Incubus 2",
+    "tln_5w_talon": "Talon TLN-5W",
+    "the_n_thorn": "Thorn THE-N",
+    "jenner_iic": "Jenner IIC",
+    "locust_iic": "Locust IIC",
+    "firefly_c": "Firefly C",
+    "hunchback_iic": "Hunchback IIC",
+    "shadow_hawk_iic": "Shadow Hawk IIC",
+    "shadow_hawk_iic_2": "Shadow Hawk IIC 2",
+    "conjurer": "Conjurer",
+    "griffin_iic_2": "Griffin IIC 2",
+    "great_wyrm": "Great Wyrm",
+    "wyvern_iic": "Wyvern IIC",
+    "vapor_eagle": "Vapor Eagle",
+    "griffin_iic": "Griffin IIC",
+    "clint_iic": "Clint IIC",
+    "shadow_hawk_c": "Shadow Hawk C",
+    "guillotine_iic": "Guillotine IIC",
+    "thunderbolt_c": "Thunderbolt C",
+    "warhammer_c": "Warhammer C",
+    "bl_6_knt_black_knight": "Black Knight BL-6-KNT",
+    "marauder_c": "Marauder C",
+    "rifleman_iic": "Rifleman IIC",
+    "archer_c": "Archer C",
+    "rifleman_c": "Rifleman C",
+    "glass_spider": "Glass Spider",
+    "lnc_01_25_lancelot": "Lancelot LNC-01-25",
+    "fls_8k_flashman": "Flashman FLS-8K",
+    "champion_c": "Champion C",
+    "stone_rhino": "Stone Rhino",
+    "atlas_c": "Atlas C",
+    "warhammer_iic": "Warhammer IIC",
+    "bane": "Bane",
+    "highlander_iic": "Highlander IIC",
+    "marauder_iic": "Marauder IIC",
+    "kodiak": "Kodiak",
+    "phoenix_hawk_iic": "Phoenix Hawk IIC",
+    "phoenix_hawk_iic_2": "Phoenix Hawk IIC 2",
+    "victor_c": "Victor C",
+    "pnt_8z_panther": "Panther PNT-8Z",
+    "wsp_1a_wasp": "Wasp WSP-1A",
+    "mcy_97_mercury": "Mercury MCY-97",
+    "stg_3r_stinger": "Stinger STG-3R",
+    "um_r63_urbanmech": "UrbanMech UM-R63",
+    "vlk_qa_valkyrie": "Valkyrie VLK-QA",
+    "hsr_200_d_hussar": "Hussar HSR-200-D",
+    "hsr_400_d_hussar": "Hussar HSR-400-D",
+    "mon_66_mongoose": "Mongoose MON-66",
+    "lct_1v_locust": "Locust LCT-1V",
+    "mcy_99_mercury": "Mercury MCY-99",
+    "hbk_5m_hunchback": "Hunchback HBK-5M",
+    "shd_2ht_shadow_hawk": "Shadow Hawk SHD-2Ht",
+    "wvr_7m_wolverine": "Wolverine WVR-7M",
+    "kto_19_kintaro": "Kintaro KTO-19",
+    "stn_3l_sentinel": "Sentinel STN-3L",
+    "crb_27_crab": "Crab CRB-27",
+    "wve_9n_wyvern": "Wyvern WVE-9N",
+    "pxh_1bc_phoenix_hawk": "Phoenix Hawk PXH-1bC",
+    "shd_2h_shadow_hawk": "Shadow Hawk SHD-2H",
+    "wth_2_whitworth": "Whitworth WTH-2",
+    "bj_2_blackjack": "Blackjack BJ-2",
+    "grf_1n_griffin": "Griffin GRF-1N",
+    "tbt_7m_trebuchet": "Trebuchet TBT-7M",
+    "pxh_1_phoenix_hawk": "Phoenix Hawk PXH-1",
+    "wvr_6r_wolverine": "Wolverine WVR-6R",
+    "tdr_7m_thunderbolt": "Thunderbolt TDR-7M",
+    "on1_m_orion": "Orion ON1-M",
+    "st_8a_shootist": "Shootist ST-8A",
+    "bl_9_knt_black_knight": "Black Knight BL-9-KNT",
+    "whm_7m_warhammer": "Warhammer WHM-7M",
+    "tdr_5s_thunderbolt": "Thunderbolt TDR-5S",
+    "mad_5m_marauder": "Marauder MAD-5M",
+    "whm_7cs_warhammer": "Warhammer WHM-7CS",
+    "exc_b2_excalibur": "Excalibur EXC-B2",
+    "arc_2r_archer": "Archer ARC-2R",
+    "arc_5cs_archer": "Archer ARC-5CS",
+    "bmb_12d_bombardier": "Bombardier BMB-12D",
+    "mad_5cs_marauder": "Marauder MAD-5CS",
+    "rfl_3n_rifleman": "Rifleman RFL-3N",
+    "lnc25_01_lancelot": "Lancelot LNC-25-01",
+    "osr_2d_ostroc": "Ostroc OSR-2D",
+    "lnc25_05_lancelot": "Lancelot LNC-25-05",
+    "ext_4d_exterminator": "Exterminator EXT-4D",
+    "rfl_5cs_rifleman": "Rifleman RFL-5CS",
+    "as7_d_atlas": "Atlas AS7-D",
+    "cp_11_a_cyclops": "Cyclops CP-11-A",
+    "kgc_000_king_crab": "King Crab KGC-000",
+    "stk_5m_stalker": "Stalker STK-5M",
+    "crk_50031_crockett": "Crockett CRK-5003-1",
+    "hgn_732_highlander": "Highlander HGN-732",
+    "kgc_001_king_crab": "King Crab KGC-001",
+    "thg_11e_thug": "Thug THG-11E",
+    "spt_n2_spartan": "Spartan SPT-N2",
+    "stk_3f_stalker": "Stalker STK-3F",
+    "aws_8q_awesome": "Awesome AWS-8Q",
+    "as7_k_atlas": "Atlas AS7-K",
+    "vtr_9b_victor": "Victor VTR-9B",
+    "blr_3m_battlemaster": "BattleMaster BLR-3M",
+    "bnc_3e_banshee": "Banshee BNC-3E"
+  },
+  "AssignmentTables": {
+    "Clan Front-Line": {
+      "Assault": {
+        "Medium": [
+          { "roll": 1, "mech": "nova_prime" },
+          { "roll": 2, "mech": "nova_s" },
+          { "roll": 3, "mech": "stormcrow_b" },
+          { "roll": 4, "mech": "stormcrow_prime" },
+          { "roll": 5, "mech": "ice_ferret_prime" },
+          { "roll": 6, "mech": "viper_c" }
+        ],
+        "Heavy": [
+          { "roll": 1, "mech": "summoner_c" },
+          { "roll": 2, "mech": "mad_dog_d" },
+          { "roll": 3, "mech": "summoner_d" },
+          { "roll": 4, "mech": "timber_wolf_s" },
+          { "roll": 5, "mech": "timber_wolf_d" },
+          { "roll": 6, "mech": "crossbow_a" }
+        ],
+        "Assault": [
+          { "roll": 1, "mech": "dire_wolf_prime" },
+          { "roll": 2, "mech": "warhawk_a" },
+          { "roll": 3, "mech": "gargoyle_c" },
+          { "roll": 4, "mech": "executioner_d" },
+          { "roll": 5, "mech": "dire_wolf_s" },
+          { "roll": 6, "mech": "warhawk_prime" }
+        ]
+      },
+      "Battle": {
+        "Light": [
+          { "roll": 1, "mech": "adder_prime" },
+          { "roll": 2, "mech": "arctic_cheetah_prime" },
+          { "roll": 3, "mech": "adder_b" },
+          { "roll": 4, "mech": "fire_moth_b" },
+          { "roll": 5, "mech": "kit_fox_prime" },
+          { "roll": 6, "mech": "mist_lynx_b" }
+        ],
+        "Medium": [
+          { "roll": 1, "mech": "stormcrow_a" },
+          { "roll": 2, "mech": "ice_ferret_prime" },
+          { "roll": 3, "mech": "nova_a" },
+          { "roll": 4, "mech": "viper_d" },
+          { "roll": 5, "mech": "stormcrow_prime" },
+          { "roll": 6, "mech": "nova_prime" }
+        ],
+        "Heavy": [
+          { "roll": 1, "mech": "hellbringer_b" },
+          { "roll": 2, "mech": "timber_wolf_prime" },
+          { "roll": 3, "mech": "summoner_a" },
+          { "roll": 4, "mech": "summoner_b" },
+          { "roll": 5, "mech": "mad_dog_prime" },
+          { "roll": 6, "mech": "timber_wolf_b" }
+        ],
+        "Assault": [
+          { "roll": 1, "mech": "executioner_a" },
+          { "roll": 2, "mech": "gargoyle_a" },
+          { "roll": 3, "mech": "warhawk_b" },
+          { "roll": 4, "mech": "warhawk_d" },
+          { "roll": 5, "mech": "kingfisher_prime" },
+          { "roll": 6, "mech": "executioner_prime" }
+        ]
+      },
+      "Fire": {
+        "Light": [
+          { "roll": 1, "mech": "adder_a" },
+          { "roll": 2, "mech": "adder_prime" },
+          { "roll": 3, "mech": "mist_lynx_a" },
+          { "roll": 4, "mech": "kit_fox_a" },
+          { "roll": 5, "mech": "adder_prime" },
+          { "roll": 6, "mech": "fire_moth_c" }
+        ],
+        "Medium": [
+          { "roll": 1, "mech": "battle_cobra_b" },
+          { "roll": 2, "mech": "viper_b" },
+          { "roll": 3, "mech": "ice_ferret_c" },
+          { "roll": 4, "mech": "nova_c" },
+          { "roll": 5, "mech": "stormcrow_d" },
+          { "roll": 6, "mech": "stormcrow_prime" }
+        ],
+        "Heavy": [
+          { "roll": 1, "mech": "hellbringer_a" },
+          { "roll": 2, "mech": "mad_dog_prime" },
+          { "roll": 3, "mech": "summoner_prime" },
+          { "roll": 4, "mech": "mad_dog_c" },
+          { "roll": 5, "mech": "timber_wolf_c" },
+          { "roll": 6, "mech": "summoner_m" }
+        ],
+        "Assault": [
+          { "roll": 1, "mech": "dire_wolf_a" },
+          { "roll": 2, "mech": "warhawk_prime" },
+          { "roll": 3, "mech": "gargoyle_b" },
+          { "roll": 4, "mech": "naga_prime" },
+          { "roll": 5, "mech": "warhawk_c" },
+          { "roll": 6, "mech": "dire_wolf_b" }
+        ]
+      },
+      "Striker": {
+        "Light": [
+          { "roll": 1, "mech": "fire_moth_a" },
+          { "roll": 2, "mech": "mist_lynx_c" },
+          { "roll": 3, "mech": "kit_fox_c" },
+          { "roll": 4, "mech": "kit_fox_b" },
+          { "roll": 5, "mech": "arctic_cheetah_a" },
+          { "roll": 6, "mech": "mist_lynx_prime" }
+        ],
+        "Medium": [
+          { "roll": 1, "mech": "nova_b" },
+          { "roll": 2, "mech": "viper_prime" },
+          { "roll": 3, "mech": "stormcrow_prime" },
+          { "roll": 4, "mech": "viper_a" },
+          { "roll": 5, "mech": "ice_ferret_a" },
+          { "roll": 6, "mech": "battle_cobra_prime" }
+        ],
+        "Heavy": [
+          { "roll": 1, "mech": "mad_dog_b" },
+          { "roll": 2, "mech": "hellbringer_prime" },
+          { "roll": 3, "mech": "timber_wolf_a" },
+          { "roll": 4, "mech": "timber_wolf_prime" },
+          { "roll": 5, "mech": "mad_dog_a" },
+          { "roll": 6, "mech": "hellbringer_c" }
+        ],
+        "Assault": [
+          { "roll": 1, "mech": "executioner_b" },
+          { "roll": 2, "mech": "gargoyle_prime" },
+          { "roll": 3, "mech": "gargoyle_d" },
+          { "roll": 4, "mech": "executioner_c" },
+          { "roll": 5, "mech": "executioner_prime" },
+          { "roll": 6, "mech": "gargoyle_a" }
+        ]
+      }
+    },
+    "Clan Second-Line": {
+      "Assault": {
+        "Medium": [
+          { "roll": 1, "mech": "hunchback_iic" },
+          { "roll": 2, "mech": "hunchback_iic" },
+          { "roll": 3, "mech": "shadow_hawk_iic" },
+          { "roll": 4, "mech": "conjurer" },
+          { "roll": 5, "mech": "shadow_hawk_iic" },
+          { "roll": 6, "mech": "griffin_iic_2" }
+        ],
+        "Heavy": [
+          { "roll": 1, "mech": "guillotine_iic" },
+          { "roll": 2, "mech": "thunderbolt_c" },
+          { "roll": 3, "mech": "warhammer_c" },
+          { "roll": 4, "mech": "bl_6_knt_black_knight" },
+          { "roll": 5, "mech": "marauder_c" },
+          { "roll": 6, "mech": "summoner_prime" }
+        ],
+        "Assault": [
+          { "roll": 1, "mech": "stone_rhino" },
+          { "roll": 2, "mech": "atlas_c" },
+          { "roll": 3, "mech": "warhammer_iic" },
+          { "roll": 4, "mech": "bane" },
+          { "roll": 5, "mech": "highlander_iic" },
+          { "roll": 6, "mech": "marauder_iic" }
+        ]
+      },
+      "Battle": {
+        "Light": [
+          { "roll": 1, "mech": "horned_owl" },
+          { "roll": 2, "mech": "horned_owl_2" },
+          { "roll": 3, "mech": "jenner_iic_2" },
+          { "roll": 4, "mech": "horned_owl" },
+          { "roll": 5, "mech": "piranha" },
+          { "roll": 6, "mech": "incubus" }
+        ],
+        "Medium": [
+          { "roll": 1, "mech": "great_wyrm" },
+          { "roll": 2, "mech": "wyvern_iic" },
+          { "roll": 3, "mech": "shadow_hawk_iic" },
+          { "roll": 4, "mech": "vapor_eagle" },
+          { "roll": 5, "mech": "shadow_hawk_iic" },
+          { "roll": 6, "mech": "griffin_iic" }
+        ],
+        "Heavy": [
+          { "roll": 1, "mech": "guillotine_iic" },
+          { "roll": 2, "mech": "rifleman_iic" },
+          { "roll": 3, "mech": "thunderbolt_c" },
+          { "roll": 4, "mech": "warhammer_c" },
+          { "roll": 5, "mech": "marauder_c" },
+          { "roll": 6, "mech": "archer_c" }
+        ],
+        "Assault": [
+          { "roll": 1, "mech": "stone_rhino" },
+          { "roll": 2, "mech": "highlander_iic" },
+          { "roll": 3, "mech": "marauder_iic" },
+          { "roll": 4, "mech": "warhammer_iic" },
+          { "roll": 5, "mech": "kodiak" },
+          { "roll": 6, "mech": "atlas_c" }
+        ]
+      },
+      "Fire": {
+        "Light": [
+          { "roll": 1, "mech": "horned_owl" },
+          { "roll": 2, "mech": "incubus" },
+          { "roll": 3, "mech": "locust_iic_3" },
+          { "roll": 4, "mech": "incubus_2" },
+          { "roll": 5, "mech": "tln_5w_talon" },
+          { "roll": 6, "mech": "the_n_thorn" }
+        ],
+        "Medium": [
+          { "roll": 1, "mech": "clint_iic" },
+          { "roll": 2, "mech": "conjurer" },
+          { "roll": 3, "mech": "vapor_eagle" },
+          { "roll": 4, "mech": "shadow_hawk_iic_2" },
+          { "roll": 5, "mech": "great_wyrm" },
+          { "roll": 6, "mech": "griffin_iic" }
+        ],
+        "Heavy": [
+          { "roll": 1, "mech": "rifleman_c" },
+          { "roll": 2, "mech": "rifleman_iic" },
+          { "roll": 3, "mech": "glass_spider" },
+          { "roll": 4, "mech": "warhammer_c" },
+          { "roll": 5, "mech": "marauder_c" },
+          { "roll": 6, "mech": "archer_c" }
+        ],
+        "Assault": [
+          { "roll": 1, "mech": "bane" },
+          { "roll": 2, "mech": "highlander_iic" },
+          { "roll": 3, "mech": "phoenix_hawk_iic" },
+          { "roll": 4, "mech": "warhammer_iic" },
+          { "roll": 5, "mech": "stone_rhino" },
+          { "roll": 6, "mech": "bane" }
+        ]
+      },
+      "Striker": {
+        "Light": [
+          { "roll": 1, "mech": "horned_owl" },
+          { "roll": 2, "mech": "incubus" },
+          { "roll": 3, "mech": "jenner_iic" },
+          { "roll": 4, "mech": "locust_iic" },
+          { "roll": 5, "mech": "firefly_c" },
+          { "roll": 6, "mech": "piranha" }
+        ],
+        "Medium": [
+          { "roll": 1, "mech": "vapor_eagle" },
+          { "roll": 2, "mech": "conjurer" },
+          { "roll": 3, "mech": "shadow_hawk_iic" },
+          { "roll": 4, "mech": "shadow_hawk_iic" },
+          { "roll": 5, "mech": "shadow_hawk_c" },
+          { "roll": 6, "mech": "griffin_iic" }
+        ],
+        "Heavy": [
+          { "roll": 1, "mech": "lnc_01_25_lancelot" },
+          { "roll": 2, "mech": "fls_8k_flashman" },
+          { "roll": 3, "mech": "champion_c" },
+          { "roll": 4, "mech": "lnc_01_25_lancelot" },
+          { "roll": 5, "mech": "fls_8k_flashman" },
+          { "roll": 6, "mech": "champion_c" }
+        ],
+        "Assault": [
+          { "roll": 1, "mech": "phoenix_hawk_iic" },
+          { "roll": 2, "mech": "phoenix_hawk_iic_2" },
+          { "roll": 3, "mech": "executioner_prime" },
+          { "roll": 4, "mech": "phoenix_hawk_iic" },
+          { "roll": 5, "mech": "gargoyle_prime" },
+          { "roll": 6, "mech": "victor_c" }
+        ]
+      }
+    },
+    "ComStar": {
+      "Assault": {
+        "Medium": [
+          { "roll": 1, "mech": "hbk_5m_hunchback" },
+          { "roll": 2, "mech": "shd_2ht_shadow_hawk" },
+          { "roll": 3, "mech": "wvr_7m_wolverine" },
+          { "roll": 4, "mech": "kto_19_kintaro" },
+          { "roll": 5, "mech": "stn_3l_sentinel" },
+          { "roll": 6, "mech": "crb_27_crab" }
+        ],
+        "Heavy": [
+          { "roll": 1, "mech": "fls_8k_flashman" },
+          { "roll": 2, "mech": "tdr_7m_thunderbolt" },
+          { "roll": 3, "mech": "on1_m_orion" },
+          { "roll": 4, "mech": "st_8a_shootist" },
+          { "roll": 5, "mech": "bl_9_knt_black_knight" },
+          { "roll": 6, "mech": "bl_6_knt_black_knight" }
+        ],
+        "Assault": [
+          { "roll": 1, "mech": "as7_d_atlas" },
+          { "roll": 2, "mech": "cp_11_a_cyclops" },
+          { "roll": 3, "mech": "kgc_000_king_crab" },
+          { "roll": 4, "mech": "stk_5m_stalker" },
+          { "roll": 5, "mech": "crk_50031_crockett" },
+          { "roll": 6, "mech": "hgn_732_highlander" }
+        ]
+      },
+      "Battle": {
+        "Light": [
+          { "roll": 1, "mech": "pnt_8z_panther" },
+          { "roll": 2, "mech": "wsp_1a_wasp" },
+          { "roll": 3, "mech": "mcy_97_mercury" },
+          { "roll": 4, "mech": "stg_3r_stinger" },
+          { "roll": 5, "mech": "um_r63_urbanmech" },
+          { "roll": 6, "mech": "um_r63_urbanmech" }
+        ],
+        "Medium": [
+          { "roll": 1, "mech": "crb_27_crab" },
+          { "roll": 2, "mech": "stn_3l_sentinel" },
+          { "roll": 3, "mech": "wve_9n_wyvern" },
+          { "roll": 4, "mech": "crb_27_crab" },
+          { "roll": 5, "mech": "pxh_1bc_phoenix_hawk" },
+          { "roll": 6, "mech": "shd_2ht_shadow_hawk" }
+        ],
+        "Heavy": [
+          { "roll": 1, "mech": "whm_7m_warhammer" },
+          { "roll": 2, "mech": "tdr_5s_thunderbolt" },
+          { "roll": 3, "mech": "bl_6_knt_black_knight" },
+          { "roll": 4, "mech": "mad_5m_marauder" },
+          { "roll": 5, "mech": "whm_7cs_warhammer" },
+          { "roll": 6, "mech": "exc_b2_excalibur" }
+        ],
+        "Assault": [
+          { "roll": 1, "mech": "kgc_001_king_crab" },
+          { "roll": 2, "mech": "crk_50031_crockett" },
+          { "roll": 3, "mech": "thg_11e_thug" },
+          { "roll": 4, "mech": "spt_n2_spartan" },
+          { "roll": 5, "mech": "cp_11_a_cyclops" },
+          { "roll": 6, "mech": "stk_3f_stalker" }
+        ]
+      },
+      "Fire": {
+        "Light": [
+          { "roll": 1, "mech": "pnt_8z_panther" },
+          { "roll": 2, "mech": "vlk_qa_valkyrie" },
+          { "roll": 3, "mech": "pnt_8z_panther" },
+          { "roll": 4, "mech": "um_r63_urbanmech" },
+          { "roll": 5, "mech": "the_n_thorn" },
+          { "roll": 6, "mech": "the_n_thorn" }
+        ],
+        "Medium": [
+          { "roll": 1, "mech": "shd_2h_shadow_hawk" },
+          { "roll": 2, "mech": "stn_3l_sentinel" },
+          { "roll": 3, "mech": "wth_2_whitworth" },
+          { "roll": 4, "mech": "bj_2_blackjack" },
+          { "roll": 5, "mech": "grf_1n_griffin" },
+          { "roll": 6, "mech": "tbt_7m_trebuchet" }
+        ],
+        "Heavy": [
+          { "roll": 1, "mech": "arc_2r_archer" },
+          { "roll": 2, "mech": "arc_5cs_archer" },
+          { "roll": 3, "mech": "bmb_12d_bombardier" },
+          { "roll": 4, "mech": "whm_7cs_warhammer" },
+          { "roll": 5, "mech": "mad_5cs_marauder" },
+          { "roll": 6, "mech": "rfl_3n_rifleman" }
+        ],
+        "Assault": [
+          { "roll": 1, "mech": "hgn_732_highlander" },
+          { "roll": 2, "mech": "aws_8q_awesome" },
+          { "roll": 3, "mech": "thg_11e_thug" },
+          { "roll": 4, "mech": "cp_11_a_cyclops" },
+          { "roll": 5, "mech": "as7_k_atlas" },
+          { "roll": 6, "mech": "stk_5m_stalker" }
+        ]
+      },
+      "Striker": {
+        "Light": [
+          { "roll": 1, "mech": "hsr_200_d_hussar" },
+          { "roll": 2, "mech": "hsr_400_d_hussar" },
+          { "roll": 3, "mech": "mon_66_mongoose" },
+          { "roll": 4, "mech": "lct_1v_locust" },
+          { "roll": 5, "mech": "mcy_99_mercury" },
+          { "roll": 6, "mech": "mcy_97_mercury" }
+        ],
+        "Medium": [
+          { "roll": 1, "mech": "pxh_1_phoenix_hawk" },
+          { "roll": 2, "mech": "pxh_1bc_phoenix_hawk" },
+          { "roll": 3, "mech": "stn_3l_sentinel" },
+          { "roll": 4, "mech": "wvr_6r_wolverine" },
+          { "roll": 5, "mech": "crb_27_crab" },
+          { "roll": 6, "mech": "crb_27_crab" }
+        ],
+        "Heavy": [
+          { "roll": 1, "mech": "lnc25_01_lancelot" },
+          { "roll": 2, "mech": "fls_8k_flashman" },
+          { "roll": 3, "mech": "osr_2d_ostroc" },
+          { "roll": 4, "mech": "lnc25_05_lancelot" },
+          { "roll": 5, "mech": "ext_4d_exterminator" },
+          { "roll": 6, "mech": "rfl_5cs_rifleman" }
+        ],
+        "Assault": [
+          { "roll": 1, "mech": "vtr_9b_victor" },
+          { "roll": 2, "mech": "blr_3m_battlemaster" },
+          { "roll": 3, "mech": "bnc_3e_banshee" },
+          { "roll": 4, "mech": "hgn_732_highlander" },
+          { "roll": 5, "mech": "vtr_9b_victor" },
+          { "roll": 6, "mech": "cp_11_a_cyclops" }
+        ]
+      }
+    }
+  }
+}

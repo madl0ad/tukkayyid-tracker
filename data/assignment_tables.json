@@ -1,0 +1,138 @@
+{
+  "Assault": {
+    "Light": [
+      {"roll": 1, "mechId": 1},
+      {"roll": 2, "mechId": 2},
+      {"roll": 3, "mechId": 3},
+      {"roll": 4, "mechId": 4},
+      {"roll": 5, "mechId": 5},
+      {"roll": 6, "mechId": 6}
+    ],
+    "Medium": [
+      {"roll": 1, "mechId": 7},
+      {"roll": 2, "mechId": 8},
+      {"roll": 3, "mechId": 9},
+      {"roll": 4, "mechId": 10},
+      {"roll": 5, "mechId": 11},
+      {"roll": 6, "mechId": 12}
+    ],
+    "Heavy": [
+      {"roll": 1, "mechId": 14},
+      {"roll": 2, "mechId": 15},
+      {"roll": 3, "mechId": 16},
+      {"roll": 4, "mechId": 17},
+      {"roll": 5, "mechId": 18},
+      {"roll": 6, "mechId": 19}
+    ],
+    "Assault": [
+      {"roll": 1, "mechId": 20},
+      {"roll": 2, "mechId": 21},
+      {"roll": 3, "mechId": 22},
+      {"roll": 4, "mechId": 23},
+      {"roll": 5, "mechId": 24},
+      {"roll": 6, "mechId": 25}
+    ]
+  },
+  "Battle": {
+    "Light": [
+      {"roll": 1, "mechId": 1},
+      {"roll": 2, "mechId": 2},
+      {"roll": 3, "mechId": 3},
+      {"roll": 4, "mechId": 4},
+      {"roll": 5, "mechId": 5},
+      {"roll": 6, "mechId": 6}
+    ],
+    "Medium": [
+      {"roll": 1, "mechId": 7},
+      {"roll": 2, "mechId": 8},
+      {"roll": 3, "mechId": 9},
+      {"roll": 4, "mechId": 10},
+      {"roll": 5, "mechId": 11},
+      {"roll": 6, "mechId": 12}
+    ],
+    "Heavy": [
+      {"roll": 1, "mechId": 14},
+      {"roll": 2, "mechId": 15},
+      {"roll": 3, "mechId": 16},
+      {"roll": 4, "mechId": 17},
+      {"roll": 5, "mechId": 18},
+      {"roll": 6, "mechId": 19}
+    ],
+    "Assault": [
+      {"roll": 1, "mechId": 20},
+      {"roll": 2, "mechId": 21},
+      {"roll": 3, "mechId": 22},
+      {"roll": 4, "mechId": 23},
+      {"roll": 5, "mechId": 24},
+      {"roll": 6, "mechId": 25}
+    ]
+  },
+  "Striker": {
+    "Light": [
+      {"roll": 1, "mechId": 1},
+      {"roll": 2, "mechId": 2},
+      {"roll": 3, "mechId": 3},
+      {"roll": 4, "mechId": 4},
+      {"roll": 5, "mechId": 5},
+      {"roll": 6, "mechId": 6}
+    ],
+    "Medium": [
+      {"roll": 1, "mechId": 7},
+      {"roll": 2, "mechId": 8},
+      {"roll": 3, "mechId": 9},
+      {"roll": 4, "mechId": 10},
+      {"roll": 5, "mechId": 11},
+      {"roll": 6, "mechId": 12}
+    ],
+    "Heavy": [
+      {"roll": 1, "mechId": 14},
+      {"roll": 2, "mechId": 15},
+      {"roll": 3, "mechId": 16},
+      {"roll": 4, "mechId": 17},
+      {"roll": 5, "mechId": 18},
+      {"roll": 6, "mechId": 19}
+    ],
+    "Assault": [
+      {"roll": 1, "mechId": 20},
+      {"roll": 2, "mechId": 21},
+      {"roll": 3, "mechId": 22},
+      {"roll": 4, "mechId": 23},
+      {"roll": 5, "mechId": 24},
+      {"roll": 6, "mechId": 25}
+    ]
+  },
+  "Fire": {
+    "Light": [
+      {"roll": 1, "mechId": 1},
+      {"roll": 2, "mechId": 2},
+      {"roll": 3, "mechId": 3},
+      {"roll": 4, "mechId": 4},
+      {"roll": 5, "mechId": 5},
+      {"roll": 6, "mechId": 6}
+    ],
+    "Medium": [
+      {"roll": 1, "mechId": 7},
+      {"roll": 2, "mechId": 8},
+      {"roll": 3, "mechId": 9},
+      {"roll": 4, "mechId": 10},
+      {"roll": 5, "mechId": 11},
+      {"roll": 6, "mechId": 12}
+    ],
+    "Heavy": [
+      {"roll": 1, "mechId": 14},
+      {"roll": 2, "mechId": 15},
+      {"roll": 3, "mechId": 16},
+      {"roll": 4, "mechId": 17},
+      {"roll": 5, "mechId": 18},
+      {"roll": 6, "mechId": 19}
+    ],
+    "Assault": [
+      {"roll": 1, "mechId": 26},
+      {"roll": 2, "mechId": 21},
+      {"roll": 3, "mechId": 22},
+      {"roll": 4, "mechId": 23},
+      {"roll": 5, "mechId": 24},
+      {"roll": 6, "mechId": 25}
+    ]
+  }
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BattleTech Campaign Force Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-robot"></i> BattleTech Campaign Force Builder</h1>
+            <p class="subtitle">Build your BattleTech force with random mech assignments</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Left Panel: Force Configuration -->
+            <div class="left-panel">
+                <section class="force-configuration">
+                    <h2><i class="fas fa-cog"></i> Force Configuration</h2>
+                    
+                    <div class="faction-selection">
+                        <label for="factionSelect">Faction:</label>
+                        <select id="factionSelect">
+                            <option value="ComStar">ComStar (Level II - 6 mechs)</option>
+                            <option value="Clan">Clan (Star - 5 mechs)</option>
+                        </select>
+                        <div id="clanEquipment" class="hidden">
+                            <label for="equipmentVariant">Equipment:</label>
+                            <select id="equipmentVariant">
+                                <option value="Front-line">Front-line</option>
+                                <option value="Second-line">Second-line</option>
+                            </select>
+                        </div>
+                        <div class="experience-level">
+                            <label for="experienceLevel">Experience Level:</label>
+                            <select id="experienceLevel">
+                                <option value="Regular">Regular (ComStar only)</option>
+                                <option value="Veteran" selected>Veteran</option>
+                                <option value="Elite">Elite</option>
+                                <option value="Heroic">Heroic (Clan only)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="force-points">
+                        <label for="forcePoints">Force Points:</label>
+                        <select id="forcePoints">
+                            <option value="250">250 FP</option>
+                            <option value="500" selected>500 FP</option>
+                            <option value="750">750 FP</option>
+                            <option value="custom">Custom</option>
+                        </select>
+                        <div id="customForcePoints" class="hidden">
+                            <input type="number" id="customForcePointsInput" min="1" max="5000" value="500" placeholder="Enter custom FP">
+                        </div>
+                    </div>
+
+                    <div class="lance-management">
+                        <h3><i class="fas fa-users"></i> Lance Management</h3>
+                        <div class="lance-controls">
+                            <button id="addLanceBtn" class="btn btn-primary">
+                                <i class="fas fa-plus"></i> Add Lance
+                            </button>
+                            <button id="removeLanceBtn" class="btn btn-danger" disabled>
+                                <i class="fas fa-minus"></i> Remove Selected Lance
+                            </button>
+                        </div>
+                        <div id="lancesList" class="lances-list">
+                            <!-- Lances will be added here dynamically -->
+                        </div>
+                    </div>
+
+                    <div class="actions">
+                        <button id="rollAllBtn" class="btn btn-success">
+                            <i class="fas fa-dice"></i> Roll All Mechs
+                        </button>
+                        <button id="clearAllBtn" class="btn btn-warning">
+                            <i class="fas fa-trash"></i> Clear All
+                        </button>
+                    </div>
+                </section>
+
+                <section class="file-operations">
+                    <h2><i class="fas fa-file"></i> File Operations</h2>
+                    <div class="file-buttons">
+                        <button id="loadDataBtn" class="btn btn-secondary">
+                            <i class="fas fa-folder-open"></i> Load Mech Data
+                        </button>
+                        <button id="saveForceBtn" class="btn btn-primary">
+                            <i class="fas fa-save"></i> Save Force
+                        </button>
+                        <button id="loadForceBtn" class="btn btn-secondary">
+                            <i class="fas fa-folder-open"></i> Load Force
+                        </button>
+                    </div>
+                    <div class="status" id="statusMessage">
+                        Ready to build your force!
+                    </div>
+                </section>
+
+                <section class="export-operations">
+                    <h2><i class="fas fa-download"></i> Export</h2>
+                    <div class="export-buttons">
+                        <button id="exportMulBtn" class="btn btn-info">
+                            <i class="fas fa-file-code"></i> Export to MUL
+                        </button>
+                        <div class="export-options hidden" id="mulExportOptions">
+                            <div class="export-option">
+                                <button id="exportCurrentUnitBtn" class="btn btn-small btn-info">
+                                    <i class="fas fa-user"></i> Export Current Unit
+                                </button>
+                                <span class="export-hint">Export selected unit only</span>
+                            </div>
+                            <div class="export-option">
+                                <button id="exportEntireForceBtn" class="btn btn-small btn-info">
+                                    <i class="fas fa-users"></i> Export Entire Force
+                                </button>
+                                <span class="export-hint">Export all units in force</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Panel: Force Summary -->
+            <div class="right-panel">
+                <section class="force-summary">
+                    <h2><i class="fas fa-clipboard-list"></i> Force Summary</h2>
+                    
+                    <div class="summary-stats">
+                        <div class="stat">
+                            <span class="stat-label">Total Force Points:</span>
+                            <span class="stat-value" id="totalForcePoints">500</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Used Points:</span>
+                            <span class="stat-value" id="usedPoints">0</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Remaining Points:</span>
+                            <span class="stat-value" id="remainingPoints">500</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Total Mechs:</span>
+                            <span class="stat-value" id="totalMechs">0</span>
+                        </div>
+                    </div>
+
+                    <div class="force-composition">
+                        <h3><i class="fas fa-chart-pie"></i> Force Composition</h3>
+                        <div class="composition-chart">
+                            <canvas id="compositionChart"></canvas>
+                        </div>
+                        <div class="class-breakdown" id="classBreakdown">
+                            <!-- Class breakdown will be populated here -->
+                        </div>
+                    </div>
+
+                    <div class="force-details">
+                        <h3><i class="fas fa-list"></i> Force Details</h3>
+                        <div id="forceDetails">
+                            <!-- Force details will be populated here -->
+                            <p class="empty-message">No mechs assigned yet. Click "Roll All Mechs" to start.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <footer>
+            <p>BattleTech Campaign Force Builder v1.0 | Data loaded from JSON files</p>
+            <p class="hint">Hint: Each mech costs force points. 250 FP ≈ 3 lances worth of mechs.</p>
+        </footer>
+    </div>
+
+    <!-- Unit Template (hidden) -->
+    <template id="lanceTemplate">
+        <div class="lance-item" data-unit-id="">
+            <div class="lance-header">
+                <input type="checkbox" class="lance-checkbox">
+                <span class="lance-type">Assault Unit</span>
+                <button class="btn btn-small btn-roll-lance">
+                    <i class="fas fa-dice"></i> Roll Unit
+                </button>
+            </div>
+            <div class="lance-body">
+                <div class="lance-config">
+                    <label>Unit Type:</label>
+                    <select class="lance-type-select">
+                        <option value="Assault">Assault</option>
+                        <option value="Battle">Battle</option>
+                        <option value="Striker">Striker</option>
+                        <option value="Fire">Fire</option>
+                    </select>
+                </div>
+                <div class="lance-mechs">
+                    <!-- Mech slots will be generated dynamically based on unit size -->
+                </div>
+                <div class="lance-total">
+                    <span>Unit Total: <span class="lance-total-cost">0</span> FP</span>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Mech Slot Template (hidden) -->
+    <template id="mechSlotTemplate">
+        <div class="mech-slot" data-slot="">
+            <div class="mech-controls">
+                <span class="slot-label">Mech :</span>
+                <select class="mech-class-select">
+                    <option value="Light">Light</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Heavy">Heavy</option>
+                    <option value="Assault">Assault</option>
+                </select>
+                <button class="btn btn-small btn-roll-mech">
+                    <i class="fas fa-dice"></i> Roll
+                </button>
+            </div>
+            <div class="mech-info">
+                <span class="mech-name">-</span>
+                <span class="mech-roll">(Roll: -)</span>
+                <span class="mech-cost">Cost: -</span>
+            </div>
+        </div>
+    </template>
+
+    <!-- Modular JavaScript files -->
+    <script src="js/UnitManager.js"></script>
+    <script src="js/DataManager.js"></script>
+    <script src="js/UIManager.js"></script>
+    <script src="js/ForceBuilder.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

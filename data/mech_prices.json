@@ -1,0 +1,68 @@
+{
+  "Clan Front-Line": {
+    "Light": {
+      "Veteran": 12,
+      "Elite": 14,
+      "Heroic": 15
+    },
+    "Medium": {
+      "Veteran": 18,
+      "Elite": 20,
+      "Heroic": 22
+    },
+    "Heavy": {
+      "Veteran": 26,
+      "Elite": 30,
+      "Heroic": 32
+    },
+    "Assault": {
+      "Veteran": 32,
+      "Elite": 37,
+      "Heroic": 39
+    }
+  },
+  "Clan Second-Line": {
+    "Light": {
+      "Veteran": 10,
+      "Elite": 12,
+      "Heroic": 13
+    },
+    "Medium": {
+      "Veteran": 15,
+      "Elite": 18,
+      "Heroic": 19
+    },
+    "Heavy": {
+      "Veteran": 22,
+      "Elite": 26,
+      "Heroic": 28
+    },
+    "Assault": {
+      "Veteran": 26,
+      "Elite": 31,
+      "Heroic": 33
+    }
+  },
+  "ComStar": {
+    "Light": {
+      "Regular": 6,
+      "Veteran": 8,
+      "Elite": 10
+    },
+    "Medium": {
+      "Regular": 10,
+      "Veteran": 12,
+      "Elite": 14
+    },
+    "Heavy": {
+      "Regular": 14,
+      "Veteran": 17,
+      "Elite": 19
+    },
+    "Assault": {
+      "Regular": 17,
+      "Veteran": 22,
+      "Elite": 25
+    }
+  }
+}
